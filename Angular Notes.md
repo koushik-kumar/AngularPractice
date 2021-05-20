@@ -49,7 +49,6 @@ Latest version setup:
     ```
 
 Using Bind-disabled:
-
     ```
     <input type="text" bind-disabled="flag" id="{{ courseID }}" value="Angular10" />
     ``` 
