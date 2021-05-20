@@ -68,7 +68,7 @@ Latest version setup:
 
   ![dom vs html](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png)
 
-- PROPERTY BINDING .
+- PROPERTY BINDING for boolean values
   ``` 
   <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
   ```
