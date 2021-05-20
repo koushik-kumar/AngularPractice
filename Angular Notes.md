@@ -33,4 +33,4 @@ Component:
   </div>
 - If selector = '[app-student]'
   ```language
-  `<div app-student></div>`
+  <div app-student></div>`
