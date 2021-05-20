@@ -20,7 +20,9 @@ Latest version setup:
 
 
 
+```language
 
+```
 Component = Template(.html) + Class(.ts) + Metadata(decorators)
 
 Component:
