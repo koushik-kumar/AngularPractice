@@ -70,7 +70,6 @@ Latest version setup:
 - ### 1-way Attribute Binding
   ![1-way Attribute Binding](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png)
 
-<br></br>
 - PROPERTY BINDING for boolean values
   ``` 
   <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
