@@ -86,4 +86,27 @@ Latest version setup:
  - class="TextBlue"
  - Apply multiple classes --> ngClass
  - ```
-     - 
+     - styles: [
+    `
+      p {
+        text-align: center;
+        font-size: 30px;
+        color: magenta;
+      }
+
+      .TextBlue {
+        text-align: center;
+        color: magenta;
+      }
+      .TextItalic {
+        font-style: italic;
+        color: red;
+      }
+      .TextColor {
+        color: green;
+      }
+      .Underline {
+        text-decoration: underline;
+      }
+    `,
+  ],
