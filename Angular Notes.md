@@ -45,6 +45,7 @@ Latest version setup:
  - {{name.length}}
  - Cant be used for boolean values. Need to take help of property binding .
     - Ex. ` <input
+    type="text"
       [disabled]="flag"
       id="{{ courseID }}"
       value="Angular10"
