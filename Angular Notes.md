@@ -81,3 +81,5 @@ Latest version setup:
 
 
 ----------
+Class Binding
+ - 
