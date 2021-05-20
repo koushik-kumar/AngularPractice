@@ -66,7 +66,7 @@ Latest version setup:
 
   ![dom vs html](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png)
 
-  ![alt](https://link)
+  ![alt]([https://link](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png))
 
 <br></br>
 - PROPERTY BINDING for boolean values
