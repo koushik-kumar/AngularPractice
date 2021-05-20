@@ -39,4 +39,4 @@ Latest version setup:
  - Binding data from class to the view
  - Using {{}}, we can retrieve the value
  - {{name.toUppercase}}
-- name.length}}
+- {{name.length}}
