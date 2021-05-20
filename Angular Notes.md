@@ -17,4 +17,7 @@ Latest version setup:
      - `npm install -g n`
      - `n stable`
   
+    1. first
+    2. second
+    3. third
     src: https://phoenixnap.com/kb/update-node-js-version
