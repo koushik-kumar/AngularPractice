@@ -40,3 +40,5 @@ Latest version setup:
  - Using {{}}, we can retrieve the value
  - {{name.toUppercase}}
  - {{name.length}}
+
+ 
