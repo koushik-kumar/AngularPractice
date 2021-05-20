@@ -12,7 +12,7 @@ Latest version setup:
 
 - Checking Node version
 'manideep$ node --version'
-- Updateign the node verison
+  - Updateign the node verison
      - `npm cache clean -f`
      - `npm install -g n`
      - `n stable`
