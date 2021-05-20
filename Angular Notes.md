@@ -121,6 +121,6 @@ In the class component
   };
 ```
 
-In the view template,
+In the view template - use ,
 
 `<h3 [ngClass]="GroupOfStyles">Class Binding 23322</h3>`
