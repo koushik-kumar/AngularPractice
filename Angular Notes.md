@@ -36,4 +36,4 @@ Latest version setup:
   <div app-student></div>`
 
 ### Interpolation
- - Binding data 
+ - Binding data from class to the view
