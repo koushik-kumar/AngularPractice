@@ -66,7 +66,7 @@ Latest version setup:
 
   ![1-way property binding](http://geoff-fox.com/wp-content/uploads/2017/03/property-binding.png)
 
-  ![1-way Attribute Binding]([https://link](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png))
+  ![1-way Attribute Binding](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png))
 
 <br></br>
 - PROPERTY BINDING for boolean values
