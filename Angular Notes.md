@@ -112,5 +112,10 @@ Latest version setup:
     ```
 
     ```
-    
+    public GroupOfStyles = {
+    TextItalic: this.required,
+    TextBlue: this.required,
+    TextColor: this.required,
+    Underline: this.required,
+  };
     ```
