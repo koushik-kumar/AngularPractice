@@ -83,3 +83,4 @@ Latest version setup:
 ----------
 Class Binding
  - [class.TextBlue] = "flag"
+ - 
