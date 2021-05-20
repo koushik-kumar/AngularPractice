@@ -109,7 +109,7 @@ Latest version setup:
         text-decoration: underline;
       }
      ]
-    ```
+```
 
 In the class component
 ```
