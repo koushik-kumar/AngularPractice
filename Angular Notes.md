@@ -16,4 +16,5 @@ Latest version setup:
 'manideep$ node --version'
 - Updateign the node verison
    - `npm cache clean -f`
-   - `npm install -g n
+   - `npm install -g n`
+   - 
