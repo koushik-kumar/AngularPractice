@@ -41,5 +41,5 @@ Latest version setup:
  - {{name.toUppercase}}
  - {{name.length}}
 
- ### Property Binding
+### Property Binding
 - 
