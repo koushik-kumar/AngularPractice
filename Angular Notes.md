@@ -21,6 +21,7 @@ Latest version setup:
 
 
 ```language
+<div class="app-student">
 
 ```
 Component = Template(.html) + Class(.ts) + Metadata(decorators)
