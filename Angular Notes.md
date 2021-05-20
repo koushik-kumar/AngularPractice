@@ -81,7 +81,7 @@ Latest version setup:
 
 
 ----------
-### Class Binding
+### St Binding
  - [class.TextBlue] = "flag"
  - class="TextBlue"
  - Apply multiple classes --> ngClass
