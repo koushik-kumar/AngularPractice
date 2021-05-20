@@ -86,7 +86,7 @@ Latest version setup:
  - class="TextBlue"
  - Apply multiple classes --> ngClass
  - ```
-     - styles: [
+    - styles: [
     `
       p {
         text-align: center;
