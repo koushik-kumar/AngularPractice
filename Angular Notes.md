@@ -28,7 +28,6 @@ Component:
   ```language
   <app-student> </app-student>  
 ```
-  
 - If selector = ".app-student"
 
 ```language
