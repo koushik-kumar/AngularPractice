@@ -23,5 +23,4 @@ Latest version setup:
 
 Component:
 - If selector = ".app-student"
-  - `<div class="app-student">`
- `</div>`  
+  - `<div class="app-student">` `</div>`  
