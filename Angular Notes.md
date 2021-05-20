@@ -19,8 +19,7 @@ Latest version setup:
     src: https://phoenixnap.com/kb/update-node-js-version
 
 
-<br
->
+<br>
 **Component = Template(.html) + Class(.ts) + Metadata(decorators)**
 
 ### Component:
