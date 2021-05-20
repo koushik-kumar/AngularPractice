@@ -109,5 +109,4 @@ Latest version setup:
         text-decoration: underline;
       }
     `,
-  ],
   ```
