@@ -44,8 +44,7 @@ Latest version setup:
  - {{name.toUppercase}}
  - {{name.length}}
  - Cant be used for boolean values. Need to take help of property binding .
-    - Ex. ` <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10"
-    />`
+    - Ex. ` <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />`
 
 ### Property Binding
 - Used for setting of a property value on a view element. It’s syntax is […]
