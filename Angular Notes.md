@@ -43,5 +43,5 @@ Latest version setup:
 
 ### Property Binding
 - Html vs dom property?
-  - ```
+  ```
     <input type="text" value="Angular10">
