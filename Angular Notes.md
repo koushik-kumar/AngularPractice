@@ -128,7 +128,7 @@ In the view template - using ngClass,
 
 </br>
 
-### Style Bindindg
+### Style Binding
 ```
   <h2 [style.color]="'yellow'">Hurrayyy Style Binding</h2>
   <h2 [style.color]="myColor">Hurrayyy Style Binding</h2>
