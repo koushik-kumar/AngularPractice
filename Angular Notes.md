@@ -122,4 +122,5 @@ In the class component
 ```
 
 In the view template,
+
 `<h3 [ngClass]="GroupOfStyles">Class Binding 23322</h3>`
