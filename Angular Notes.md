@@ -47,7 +47,8 @@ Latest version setup:
     ``` 
     <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
 
-  ```<input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
+  ```
+  <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
 
 
 ### Property Binding
