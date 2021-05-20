@@ -111,7 +111,7 @@ Latest version setup:
      ]
     ```
 
-In the class co
+In the class component
     ```
     public GroupOfStyles = {
     TextItalic: this.required,
