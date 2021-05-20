@@ -48,4 +48,4 @@ Latest version setup:
   
 `$0.getAttribute('value')`   -- HTML attribute
 
-`$0.value`   -- DOM 
+`$0.value`   -- DOM values
