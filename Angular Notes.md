@@ -42,4 +42,4 @@ Latest version setup:
  - {{name.length}}
 
 ### Property Binding
-- 
+- Html vs dom property
