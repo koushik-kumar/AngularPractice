@@ -52,4 +52,4 @@ Latest version setup:
 
     Even if the value changes in the text input, the html attribute will still be "Angular10" only whereas DOM value will be as per the input in the input box
 
-    
+  
