@@ -21,7 +21,7 @@ Latest version setup:
 
 
 
-
+Component = 
 
 Component:
 - If selector = 'app-student'
