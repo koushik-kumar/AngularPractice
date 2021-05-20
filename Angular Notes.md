@@ -21,7 +21,7 @@ Latest version setup:
 
 <br></br>
 
-### Component:
+## Component:
 - **Component = Template(.html) + Class(.ts) + Metadata(decorators)**
 
 - If selector = 'app-student'
