@@ -46,4 +46,3 @@ Latest version setup:
   ```
     <input type="text" value="Angular10">
   
-  
