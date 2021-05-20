@@ -24,6 +24,7 @@ Latest version setup:
 <div class="app-student">
 
 </div>
+
 ```
 Component = Template(.html) + Class(.ts) + Metadata(decorators)
 
