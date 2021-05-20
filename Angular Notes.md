@@ -68,3 +68,14 @@ Latest version setup:
 
   ![dom vs html](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png)
 
+  - Cant be used for boolean values. Need to take help of PROPERTY BINDING .
+    ``` 
+    <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
+    ```
+
+  - Using Bind-disabled:
+    ```
+    <input type="text" bind-disabled="flag" id="{{ courseID }}" value="Angular10" />
+    ``` 
+
+
