@@ -30,7 +30,7 @@ Component:
 
 </div>
 ```
-  - `<app-student> </app-student
+  - `<app-student> </app-student>
 - If selector = ".app-student"
 
 ```language
