@@ -85,7 +85,7 @@ Latest version setup:
  - [class.TextBlue] = "flag"
  - class="TextBlue"
  - Apply multiple classes --> ngClass
-- ```
+ - ```
      styles: [
     
       p {
