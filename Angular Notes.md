@@ -50,4 +50,4 @@ Latest version setup:
 
   `$0.value`   -- DOM values
 
-    thou
+    Eventhou
