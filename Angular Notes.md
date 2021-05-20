@@ -22,6 +22,8 @@ Latest version setup:
 <br></br>
 
 ### Component:
+
+
 - If selector = 'app-student'
   ```language
   <app-student> </app-student>  
