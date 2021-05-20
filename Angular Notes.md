@@ -35,5 +35,5 @@ Latest version setup:
   ```language
   <div app-student></div>`
 
-### Interpolationfrom class to 
+### Interpolation
  - Binding data 
