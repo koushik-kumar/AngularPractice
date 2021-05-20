@@ -32,4 +32,4 @@ Component:
   <div class="app-student">
   </div>
 - If selector = '[app-student]'
-  - `<div app-student></div>`
+  `<div app-student></div>`
