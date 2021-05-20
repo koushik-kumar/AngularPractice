@@ -21,6 +21,7 @@ Latest version setup:
 
 
 
+
 Component:
 - If selector = 'app-student'
   - `<app-student> </app-student`
