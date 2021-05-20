@@ -32,7 +32,7 @@ Component:
 <div class="app-student">
 
 </div>
-```
+
 
   - `<div class="app-student">` `</div>`  
 - If selector = '[app-student]'
