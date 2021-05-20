@@ -87,7 +87,7 @@ Latest version setup:
  - Apply multiple classes --> ngClass
  - ```
      styles: [
-    `
+    
       p {
         text-align: center;
         font-size: 30px;
