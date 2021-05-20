@@ -47,8 +47,8 @@ Latest version setup:
     ``` 
     <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
 
-  ```
-  
+  ```<input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
+
 
 ### Property Binding
 - Used for setting of a property value on a view element. It’s syntax is […]
