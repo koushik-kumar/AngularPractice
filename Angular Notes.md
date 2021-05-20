@@ -1,4 +1,4 @@
-Angular Setup:
+## Angular Setup:
 
 Latest version setup:
 - Java setup
