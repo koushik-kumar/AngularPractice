@@ -46,4 +46,4 @@ Latest version setup:
   ```
     <input type="text" value="Angular10">
   
-`$0.getAttribute('vale')`
+`$0.getAttribute('value')`
