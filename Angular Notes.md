@@ -119,5 +119,5 @@ In the class component
       TextBlue: this.required,
       TextColor: this.required,
       Underline: this.required,
-    };
+      };
     ```
