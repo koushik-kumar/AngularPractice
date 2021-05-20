@@ -121,4 +121,4 @@ In the class component
   };
 ```
 
-In the view 
+In the view template
