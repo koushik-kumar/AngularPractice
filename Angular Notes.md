@@ -81,3 +81,4 @@ Latest version setup:
 
 
 ----------
+class
