@@ -123,4 +123,5 @@ In the class component
 
 In the view template,
 ```
+
 ```
