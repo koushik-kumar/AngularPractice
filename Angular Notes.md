@@ -132,6 +132,7 @@ In the view template - using ngClass,
 ```
 - color directly
   <h2 [style.color]="'yellow'">Hurrayyy Style Binding</h2>
+  
 - style through variable
   <h2 [style.color]="myColor">Hurrayyy Style Binding</h2>
 - styling through terinary operator
