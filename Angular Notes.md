@@ -65,7 +65,6 @@ Latest version setup:
     Even if the value changes in the text input, the html attribute will still be "Angular10" only whereas DOM value will be as per the input in the input box
   
 - 1-way property binding
-- 
   ![1-way property binding](http://geoff-fox.com/wp-content/uploads/2017/03/property-binding.png)
 
 - 1-way Attribute Binding
