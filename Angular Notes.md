@@ -127,6 +127,4 @@ In the view template - using ngClass,
 `<h3 [ngClass]="GroupOfStyles">Class Binding 23322</h3>`
 
 - style bindindg
-  - <h2 [style.color]="'yellow'">Hurrayyy Style Binding</h2>
-    <h2 [style.color]="myColor">Hurrayyy Style Binding</h2>
-    <h2 [style.color]="required ? 'grey' : myColor">Hurrayyy Style Binding</h2>
+    
