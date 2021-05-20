@@ -11,7 +11,6 @@ Latest version setup:
     - `$ echo $JAVA_HOME`
 
 - Checking Node version
-    
     `$ node --version`
   - Updateign the node verison
      - `npm cache clean -f`
