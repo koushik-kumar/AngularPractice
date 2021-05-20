@@ -36,6 +36,7 @@ Latest version setup:
   <div app-student></div>`
 
 ## Data Binding
+
 ### Interpolation
  - Binding data from class to the view
  - Using {{}}, we can retrieve the value
