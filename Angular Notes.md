@@ -73,7 +73,7 @@ Latest version setup:
   <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
   ```
 
-- Using Bind-disabled:
+- Using Bind-disabled for boolean values:
   ```
   <input type="text" bind-disabled="flag" id="{{ courseID }}" value="Angular10" />
   ``` 
