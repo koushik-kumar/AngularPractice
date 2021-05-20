@@ -46,6 +46,6 @@ Latest version setup:
   ```
     <input type="text" value="Angular10">
   
-`$0.getAttribute('value')`   -- HTML a  ttribute
+`$0.getAttribute('value')`   -- HTML attribute
 
 `$0.value`   -- DOM values
