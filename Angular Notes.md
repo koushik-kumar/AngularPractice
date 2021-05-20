@@ -50,4 +50,4 @@ Latest version setup:
 
   `$0.value`   -- DOM values
 
-    Eventhou
+    Even if the value changes in the text inputthou
