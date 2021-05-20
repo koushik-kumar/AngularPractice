@@ -46,7 +46,7 @@ Latest version setup:
  - Cant be used for boolean values. Need to take help of property binding .
     ``` 
     <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
-    
+    ```
 
     ``` <input type="text" bind-disabled="flag" id="{{ courseID }}" value="Angular10" />
 
