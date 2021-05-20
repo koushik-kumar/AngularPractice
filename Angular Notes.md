@@ -43,7 +43,7 @@ Latest version setup:
  - Using {{}}, we can retrieve the value
  - {{name.toUppercase}}
  - {{name.length}}
- - Cant be used for boolean values. Need to take help of PROPERTY binding .
+ - Cant be used for boolean values. Need to take help of PROPERTY BINDIN .
     ``` 
     <input type="text" [disabled]="flag" id="{{ courseID }}" value="Angular10" />
     ```
