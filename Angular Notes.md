@@ -67,7 +67,7 @@ Latest version setup:
 - ### 1-way property binding
   ![1-way property binding](http://geoff-fox.com/wp-content/uploads/2017/03/property-binding.png)
 
-- 1-way Attribute Binding
+- ### 1-way Attribute Binding
   ![1-way Attribute Binding](http://geoff-fox.com/wp-content/uploads/2017/03/attribute-binding.png)
 
 <br></br>
