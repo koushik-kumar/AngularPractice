@@ -25,6 +25,11 @@ Component = Template(.html) + Class(.ts) + Metadata(decorators)
 
 Component:
 - If selector = 'app-student'
+  ```language
+<div class="app-student">
+
+</div>
+```
   - `<app-student> </app-student`
 - If selector = ".app-student"
 
