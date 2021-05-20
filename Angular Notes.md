@@ -27,6 +27,11 @@ Component:
 - If selector = 'app-student'
   - `<app-student> </app-student`
 - If selector = ".app-student"
+  - ```language
+<div class="app-student">
+
+</div>
+```
   - `<div class="app-student">` `</div>`  
 - If selector = '[app-student]'
   - `<div app-student></div>`
