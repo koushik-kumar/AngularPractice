@@ -20,7 +20,6 @@ Latest version setup:
 
 
 
-
 **Component = Template(.html) + Class(.ts) + Metadata(decorators)**
 
 ### Component:
