@@ -127,4 +127,5 @@ In the view template - using ngClass,
 `<h3 [ngClass]="GroupOfStyles">Class Binding 23322</h3>`
 
 - style bindindg
+    ```
     
