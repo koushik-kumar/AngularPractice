@@ -44,7 +44,7 @@ Latest version setup:
  - {{name.length}}
 
 ### Property Binding
--  setting of a property value on a view element. It’s syntax is […]
+- Used for setting of a property value on a view element. It’s syntax is […]
 - Html vs dom property?
   ```
     <input type="text" value="Angular10">
