@@ -121,6 +121,6 @@ In the class component
   };
 ```
 
-In the view template - use n,
+In the view template - use ngC,
 
 `<h3 [ngClass]="GroupOfStyles">Class Binding 23322</h3>`
