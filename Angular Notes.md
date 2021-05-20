@@ -21,7 +21,7 @@ Latest version setup:
 
 
 
-Component = Template + 
+Component = Template(.html)
 
 Component:
 - If selector = 'app-student'
