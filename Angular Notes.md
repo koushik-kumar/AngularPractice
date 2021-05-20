@@ -3,7 +3,13 @@ Hello World App
 
 Latest version setup:
 - Java setup
-  - export JAVA_HOME=`/usr/libexec/java_home`
-  - $ vim .bash_profile
-  - export JAVA_HOME=$(/usr/libexec/java_home)
+  - Open the terminal and run the below command.
 
+$ vim .bash_profile
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+save and exit from vim editor, then run the source command on .bash_profile
+
+$ source .bash_profile
+
+$ echo $JAVA_HOME
