@@ -50,4 +50,4 @@ Latest version setup:
 
   `$0.value`   -- DOM values
 
-    Even if the value changes in the text input, the html attribute will still be ""thou
+    Even if the value changes in the text input, the html attribute will still be "Agnthou
