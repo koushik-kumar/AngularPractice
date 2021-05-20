@@ -38,7 +38,7 @@ Latest version setup:
 ## Data Binding
 
 ### Interpolation
- - 
+ - This allows injection of dynamic strings into the HTML text. It’s syntax is {{…}} 
  - Binding data from class to the view
  - Using {{}}, we can retrieve the value
  - {{name.toUppercase}}
