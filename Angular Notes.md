@@ -21,3 +21,8 @@ Latest version setup:
 
 
 
+Component:
+for selector = ".app-student"
+<div class="app-student">
+
+</div>
