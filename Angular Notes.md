@@ -125,7 +125,7 @@ In the class component
 In the view template - using ngClass,
 
 `<h3 [ngClass]="GroupOfStyles">Class Binding 23322</h3>`
-</br>
+</ br>
 ### Style Bindindg
 ```
   <h2 [style.color]="'yellow'">Hurrayyy Style Binding</h2>
