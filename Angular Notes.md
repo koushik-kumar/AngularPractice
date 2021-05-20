@@ -37,3 +37,4 @@ Latest version setup:
 
 ### Interpolation
  - Binding data from class to the view
+ - Using {{}}
