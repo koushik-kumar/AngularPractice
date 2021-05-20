@@ -14,5 +14,3 @@ Latest version setup:
 
 - Checking Node version
 'manideep$ node --version'
-
-v10.15.1
