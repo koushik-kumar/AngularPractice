@@ -35,6 +35,7 @@ Latest version setup:
   ```language
   <div app-student></div>`
 
+
 ### Interpolation
  - Binding data from class to the view
  - Using {{}}, we can retrieve the value
