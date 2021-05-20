@@ -13,5 +13,6 @@ Latest version setup:
     `$ echo $JAVA_HOME`
 
 - Checking Node version
-'manideep$ node --version
+'manideep$ node --version'
+
 v10.15.1
