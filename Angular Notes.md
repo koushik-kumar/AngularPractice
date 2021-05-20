@@ -6,7 +6,7 @@ Latest version setup:
   - Open the terminal and run the below command.
     $ vim .bash_profile
     export JAVA_HOME=$(/usr/libexec/java_home)
-save and exit from vim editor, then run the source command on .bash_profile
+- save and exit from vim editor, then run the source command on .bash_profile
 
 $ source .bash_profile
 
