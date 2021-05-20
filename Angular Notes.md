@@ -21,7 +21,7 @@ Latest version setup:
 
 
 
-** Component = Template(.html) + Class(.ts) + Metadata(decorators)
+*** Component = Template(.html) + Class(.ts) + Metadata(decorators)
 
 ### Component:
 - If selector = 'app-student'
