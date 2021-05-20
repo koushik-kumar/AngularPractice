@@ -12,3 +12,5 @@ Latest version setup:
     
     `$ echo $JAVA_HOME`
 
+Manideeps-Air:~ manideep$ node --version
+v10.15.1
