@@ -43,6 +43,7 @@ Latest version setup:
  - Using {{}}, we can retrieve the value
  - {{name.toUppercase}}
  - {{name.length}}
+ 
 
 ### Property Binding
 - Used for setting of a property value on a view element. It’s syntax is […]
