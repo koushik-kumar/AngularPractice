@@ -11,7 +11,7 @@ Latest version setup:
     - `$ echo $JAVA_HOME`
 
 - Checking Node version
-'manideep$ node --version'
+'manideep$ node --version`
   - Updateign the node verison
      - `npm cache clean -f`
      - `npm install -g n`
