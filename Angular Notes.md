@@ -7,7 +7,6 @@ Latest version setup:
     $ vim .bash_profile
     export JAVA_HOME=$(/usr/libexec/java_home)
   - save and exit from vim editor, then run the source command on .bash_profile
-
-$ source .bash_profile
+  $ source .bash_profile
 
 $ echo $JAVA_HOME
