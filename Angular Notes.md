@@ -128,7 +128,6 @@ In the view template - using ngClass,
 
 </br>
 ----------
-
 ### Style Binding
 ```
   <h2 [style.color]="'yellow'">Hurrayyy Style Binding</h2>
