@@ -2,7 +2,7 @@
 
 ### Finding Height of a tree:
 
-problem: 
+problem: https://leetcode.com/problems/balanced-binary-tree/
 
 - Recursively obtain the height of a tree. 
   1. An empty tree has -1 height
