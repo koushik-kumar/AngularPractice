@@ -13,4 +13,5 @@ Finding Height of a tree:
             return 1 + max(height(root->left), height(root->right));
         }
     ```
-  - An empty tree  
+  - An empty tree has 0 height
+  -  
