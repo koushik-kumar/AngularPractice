@@ -144,6 +144,6 @@ In the view template - using ngClass,
   ```
   public myStyles = {
     color: 'gold',
-    fonttyle: "italic",
-    fonts
+    fontStyle: "italic",
+    fontSize:
   }
