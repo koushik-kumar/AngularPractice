@@ -144,5 +144,5 @@ In the view template - using ngClass,
   ```
   public myStyles = {
     color: 'gold',
-    font-style: 
+    font-style: "**
   }
