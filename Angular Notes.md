@@ -156,4 +156,4 @@ public myStyles = {
 ----------
 ### Event Binding
 
-![alt]([https://link](https://miro.medium.com/max/1155/1*C1kgFbqTyVuckvJ3Z1lgeQ.png))
+![alt](https://miro.medium.com/max/1155/1*C1kgFbqTyVuckvJ3Z1lgeQ.png)
