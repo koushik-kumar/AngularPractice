@@ -14,4 +14,4 @@ Finding Height of a tree:
         }
     ```
   - An empty tree has 0 height
-  -  
+   
