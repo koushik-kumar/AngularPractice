@@ -140,3 +140,4 @@ In the view template - using ngClass,
   <h2 [style.color]="required ? 'grey' : myColor">Hurrayyy Style Binding</h2>
 ```
 
+- 
