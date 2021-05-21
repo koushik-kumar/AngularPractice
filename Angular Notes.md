@@ -141,10 +141,10 @@ In the view template - using ngClass,
 ```
 
 - Group of styles
-  ```
-  public myStyles = {
-    color: 'gold',
-    fontStyle: 'italic',
-    fontSize: '50px',
-  };
-  ```
+```
+public myStyles = {
+  color: 'gold',
+  fontStyle: 'italic',
+  fontSize: '50px',
+};
+```
