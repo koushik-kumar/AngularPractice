@@ -147,3 +147,4 @@ In the view template - using ngClass,
     fontStyle: 'italic',
     fontSize: '50px',
   };
+  ```
