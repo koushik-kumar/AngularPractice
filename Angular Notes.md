@@ -156,4 +156,4 @@ public myStyles = {
 ----------
 ### Event Binding
 
-![Binding ](https://miro.medium.com/max/1155/1*C1kgFbqTyVuckvJ3Z1lgeQ.png)
+![Binding De](https://miro.medium.com/max/1155/1*C1kgFbqTyVuckvJ3Z1lgeQ.png)
