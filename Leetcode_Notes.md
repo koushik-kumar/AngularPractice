@@ -3,6 +3,9 @@
 **Finding Height of a tree:**
 
 - Recursively obtain the height of a tree. 
+  1. first
+  2. second
+  3. third
   - An empty tree has -1 height
     ```
     int height(TreeNode root) { 
