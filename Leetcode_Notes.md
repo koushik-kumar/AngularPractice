@@ -13,7 +13,7 @@
             return 1 + max(height(root->left), height(root->right));
         }
         ```
-  2. second
+  2. 
   3. third
   - 
   - 
