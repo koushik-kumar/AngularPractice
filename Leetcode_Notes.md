@@ -3,7 +3,16 @@
 **Finding Height of a tree:**
 
 - Recursively obtain the height of a tree. 
-  1. first
+  1. An empty tree has -1 height
+    ```
+    int height(TreeNode root) { 
+        // An empty tree has height -1
+        if (root == NULL) {
+        return -1;
+        }
+        return 1 + max(height(root->left), height(root->right));
+    }
+    ```
   2. second
   3. third
   - 
