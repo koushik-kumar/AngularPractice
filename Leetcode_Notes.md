@@ -13,5 +13,3 @@ Finding Height of a tree:
             return 1 + max(height(root->left), height(root->right));
         }
     ```
-
-    
