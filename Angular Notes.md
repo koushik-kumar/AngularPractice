@@ -149,4 +149,4 @@ public myStyles = {
 };
 ```
 
-``
+`<h1 [ngStyle]="myStyles">Group of Styles through Style Binding</h1>`
