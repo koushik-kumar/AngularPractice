@@ -13,7 +13,7 @@
     `return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));`
 
 <br></br>
-
+- 
   1. An empty tree has -1 height
         ```
         int height(TreeNode root) { 
