@@ -42,7 +42,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 
 We can do this in 4 ways
 
-  1. BFS - Using 2 queues (1 queue and a List)
+  1. BFS - Using 2 queues (1 queue and a List)   - O(N)
   2. BFS - Using 1 queue and sentinel
   3. BFS - Using Queue and level number
   4. DFS - Recursion using level number
