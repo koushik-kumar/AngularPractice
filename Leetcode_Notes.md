@@ -31,7 +31,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 - Right side view
   - **Can be done using Queue and subList(or another queue)**
   
-    **BFS: Tw**
+    **BFS: Two Queues**
     ```
     public int findHeight(TreeNode root, int height){
         if(root == null)
