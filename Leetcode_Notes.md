@@ -28,7 +28,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 ----------
 ### Level-order traversal
 
-- Right side vie
+- Right side view
   - **Can be done using Queue and subList(or another queue)**
   
     **BFS: Two Queues**
