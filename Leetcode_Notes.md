@@ -6,7 +6,7 @@
   - Else we treat height at null level as 0
 - return 1 + max(height(root->left), height(root->right));
     or
-
+    return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));
 
 problem: https://leetcode.com/problems/balanced-binary-tree/
 
