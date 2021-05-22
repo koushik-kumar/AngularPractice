@@ -31,4 +31,4 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 
 - Right side view
   - Can be done using Queue and subList(or another queue)
-  - Can be done using 
+  - Can be done inserting null
