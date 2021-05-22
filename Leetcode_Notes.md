@@ -5,6 +5,10 @@
   - If putting -1 doesn't affect the solution like case where we return just boolean 
   - Else we treat height at null level as 0
 - return 1 + max(height(root->left), height(root->right));
+    1. first
+    2. second
+    3. third
+    
 
 problem: https://leetcode.com/problems/balanced-binary-tree/
 
