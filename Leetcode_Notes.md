@@ -81,7 +81,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
         }
     }
     ```
-  - ### BFS: One Queue + Sentinel
+- ### BFS: One Queue + Sentinel
     **Can be done inserting null**
     ```
     public List<Integer> rightSideView(TreeNode root) {
