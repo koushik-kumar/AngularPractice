@@ -195,5 +195,24 @@ We can do this in 4 ways
           ```
         - Or can also be done as check in the while loop itself
         ```
+        while(!q.isEmpty() && fresh > 0){
+            int size = q.size();
+            for( int i = 0; i < size; i++){
+                int[] rott = q.poll();
+                for(int[] dir : dirs){
+                    int x = rott[0] + dir[0];
+                    int y = rott[1] + dir[1];
+                    if(x >= 0 && x < grid.length && y >= 0 && y < grid[0].length && grid[x][y] == 1){
+                        grid[x][y] = 2;
+                        q.add(new int[]{x, y});
+                        fresh -= 1;
+                    }
+                }
+            }
+            count++;
+        }
         
+        if(fresh > 0)
+            return -1;
+        return count;
         ```
