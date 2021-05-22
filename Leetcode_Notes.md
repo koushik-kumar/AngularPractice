@@ -50,7 +50,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
             }
             result.add(subList.get(subList.size() - 1));
         }
-        
+    }
     ```
   - **Can be done inserting null**
   
