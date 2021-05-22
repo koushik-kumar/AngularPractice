@@ -31,7 +31,6 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 - ### BFS: Two Queues
   - **Can be done using Queue and subList(or another queue)** 
   
-    ****
     ```
     ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {{ offer(root); }};
     ArrayDeque<TreeNode> currLevel = new ArrayDeque();        
