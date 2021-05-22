@@ -20,9 +20,7 @@
     queue.offer("second");
 
     ```
-
-
-
+    
  4. 
  
  
