@@ -10,7 +10,7 @@
     
             (or)
 
-      `return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));`
+    `return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));`
 
 
 
