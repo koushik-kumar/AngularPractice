@@ -8,5 +8,5 @@
 ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {{ offer(root); }};
 ArrayDeque<TreeNode> currLevel = new ArrayDeque();
 - currLevel = nextLevel.clone();
-nextLevel.clear();
+- nextLevel.clear();
 ```
