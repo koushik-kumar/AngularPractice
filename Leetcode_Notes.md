@@ -189,7 +189,7 @@ We can do this in 4 ways
         --> O(N) - scanning and while loop 
         --> O(N) - all rotten oranges in the grid.
   - BFS in-place approach   
-  - --> O(N^2), O(1)
+        --> O(N^2), O(1)
   
     src: https://leetcode.com/problems/rotting-oranges/solution/
     
