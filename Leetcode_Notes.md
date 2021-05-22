@@ -194,7 +194,6 @@ We can do this in 4 ways
   
     src: https://leetcode.com/problems/rotting-oranges/solution/
     <br></br>
-    
   - BFS Approach: 
       - Need to count number of fresh oranges to check if all freshones are rotten or not
       - Need to subtract 1 minute in the result
