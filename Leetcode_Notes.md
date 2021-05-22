@@ -28,7 +28,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 ----------
 ## Level-order traversal
 
-4 ways
+We can do this in 4 ways
 
   1. 
 
