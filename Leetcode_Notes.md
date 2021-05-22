@@ -1,7 +1,7 @@
 
 ## Finding Height of a tree:
 
--
+- What is height for a null node ==> 
 
 problem: https://leetcode.com/problems/balanced-binary-tree/
 
