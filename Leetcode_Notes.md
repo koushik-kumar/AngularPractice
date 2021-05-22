@@ -158,6 +158,6 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
             helper(root, 0);
             return rightside;
         }
-}
+    }
 
     ```
