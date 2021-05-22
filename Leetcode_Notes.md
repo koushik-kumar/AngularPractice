@@ -30,7 +30,8 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 
 We can do this in 4 ways
 
-  1. BFS - Using 2 
+  1. BFS - Using 2 queues
+  2. 
 
 - ### BFS: Two Queues
   - **Can be done using Queue and subList(or another queue)** 
