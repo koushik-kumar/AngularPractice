@@ -1,8 +1,8 @@
  1. ```
- Queue<TreeNode> queue = new LinkedList(){{ offer(root); offer(null); }};
- - queue.offer(element)
- - queue.poll()
-```
+    Queue<TreeNode> queue = new LinkedList(){{ offer(root); offer(null); }};
+    - queue.offer(element)
+    - queue.poll()
+    ```
  2. second
  3. third
  
