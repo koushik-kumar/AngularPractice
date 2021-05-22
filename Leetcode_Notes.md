@@ -193,4 +193,5 @@ We can do this in 4 ways
               return -1;
           return count - 1;
           ```
-        - Or can also be done as 
+        - Or can also be done as check in the while loop itself
+        - 
