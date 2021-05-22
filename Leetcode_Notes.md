@@ -28,7 +28,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 ----------
 ## Level-order traversal
 
-    4 ways
+4 ways
 1. 
 
 - ### BFS: Two Queues
