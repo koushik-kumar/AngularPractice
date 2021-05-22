@@ -59,7 +59,6 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
         if (currLevel.isEmpty()) 
             rightside.add(node.val);    
     }
-
     ```
 
     ```
