@@ -190,7 +190,7 @@ We can do this in 4 ways
     - O(N) --> all rotten oranges in the grid.
   - **BFS in-place approach**   
     - O(N^2)    --> Will be calling complete grid with +1 timestamp for every round
-    - O(1)  --> Queue us not required or storing the 
+    - O(1)  --> Queue us not required or storing the visited nodes.
   
     src: https://leetcode.com/problems/rotting-oranges/solution/
     <br></br>
