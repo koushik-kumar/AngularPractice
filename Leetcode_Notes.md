@@ -202,7 +202,7 @@ We can do this in 4 ways
               return -1;
           return count - 1;
           ```
-        - Or can also be done as check in the while loop itself
+        - Or can also be done with  check in the while loop itself
         ```
         while(!q.isEmpty() && fresh > 0){
             int size = q.size();
