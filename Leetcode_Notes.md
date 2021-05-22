@@ -1,6 +1,11 @@
 
 ## Finding Height of a tree:
 
+We can do this in 4 ways
+
+  1. BFS - Using 2 queues (1 queue and a List)
+  2. BFS - Using 1 queue and sentinel
+
 problem: https://leetcode.com/problems/balanced-binary-tree/
 
 - Recursively obtain the height of a tree. 
