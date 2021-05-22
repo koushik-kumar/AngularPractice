@@ -1,5 +1,5 @@
 
-### Finding Height of a tree:
+## Finding Height of a tree:
 
 problem: https://leetcode.com/problems/balanced-binary-tree/
 
