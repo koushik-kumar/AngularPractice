@@ -189,7 +189,7 @@ We can do this in 4 ways
       - Need to count number of fresh oranges to check if all freshones are rotten or not
       - Need to subtract 1 minute in the result
         - ```
-        if(fresh > 0)
+          if(fresh > 0)
             return -1;
         return count - 1;
           ```
