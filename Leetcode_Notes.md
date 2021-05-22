@@ -8,7 +8,7 @@
     - Else we treat height for null node as 0
   - `return 1 + max(height(root->left), height(root->right));`
     
-      or)
+            (or)
 
       `return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));`
 
