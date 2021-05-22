@@ -4,6 +4,7 @@
 - What is height for a null node ==> can be treated as 0 or -1.
   - If putting -1 doesn't affect the solution like case where we return just boolean 
   - Else we treat height at null level as 0
+  - 
 
 problem: https://leetcode.com/problems/balanced-binary-tree/
 
