@@ -123,17 +123,17 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 - ###  BFS: One Queue + Level Size Measurements
   ```
   int size = -1;
-    while(!queue.isEmpty()){
-        size = queue.size();            
-        for(int i = 0; i < size; i++){
-            TreeNode front = queue.poll();
-            if(i == size -1)
-                output.add(front.val);
-            
-            if(front.left != null)
-                queue.add(front.left);
-            if(front.right != null)
-                queue.add(front.right);
-        }
+while(!queue.isEmpty()){
+    size = queue.size();            
+    for(int i = 0; i < size; i++){
+        TreeNode front = queue.poll();
+        if(i == size -1)
+            output.add(front.val);
+        
+        if(front.left != null)
+            queue.add(front.left);
+        if(front.right != null)
+            queue.add(front.right);
     }
+}
   ```
