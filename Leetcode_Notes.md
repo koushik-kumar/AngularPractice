@@ -41,3 +41,12 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
     }
     ```
   - Can be done inserting null
+    ```
+    public int findHeight(TreeNode root, int height){
+        if(root == null)
+            return height;
+        
+        return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));
+        
+    }
+    ```
