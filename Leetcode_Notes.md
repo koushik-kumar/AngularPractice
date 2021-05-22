@@ -33,13 +33,22 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
   
     **BFS: Two Queues**
     ```
-    public int findHeight(TreeNode root, int height){
-        if(root == null)
-            return height;
+    Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
         
-        return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));
-        
-    }
+        while(!q.isEmpty()){
+            int size = q.size();
+            List<Integer> subList = new ArrayList<>();
+            for(int i = 0; i < size; i++){
+                TreeNode x = q.poll();
+                subList.add(x.val);
+                if(x.left != null)
+                    q.add(x.left);
+                if(x.right != null)
+                    q.add(x.right);
+            }
+            result.add(subList.get(subList.size() - 1));
+        }
     ```
   - **Can be done inserting null**
   
