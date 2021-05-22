@@ -5,4 +5,4 @@
 
 
  currLevel = nextLevel.clone();
-        nextLevel.clear();
+nextLevel.clear();
