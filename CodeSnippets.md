@@ -3,7 +3,7 @@
 
  queue.offer(element)
  queue.poll()
-
+```
 
 ```
 ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {{ offer(root); }};
