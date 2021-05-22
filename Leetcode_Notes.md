@@ -13,7 +13,6 @@
 
 
 
-- Recursively obtain the height of a tree. 
   1. An empty tree has -1 height
         ```
         int height(TreeNode root) { 
