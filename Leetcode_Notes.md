@@ -82,7 +82,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
     }
     ```
   - ### BFS: One Queue + Sentinel
-  - Can be done inserting null**
+  - **Can be done inserting null**
   
     ****
     ```
