@@ -4,5 +4,5 @@
  `queue.poll()`
 
 
- currLevel = nextLevel.clone();
+currLevel = nextLevel.clone();
 nextLevel.clear();
