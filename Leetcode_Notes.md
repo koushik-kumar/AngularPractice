@@ -3,14 +3,14 @@
 
 - Recursively obtain the height of a tree. 
 
-- What is height for a null node ==> can be treated as 0 or -1.
-  - If putting -1 doesn't affect the solution like case where we return just boolean 
-  - Else we treat height at null level as 0
-- `return 1 + max(height(root->left), height(root->right));`
-  
-    or
+  - What is height for a null node ==> can be treated as 0 or -1.
+    - If putting -1 doesn't affect the solution like case where we return just boolean 
+    - Else we treat height at null level as 0
+  - `return 1 + max(height(root->left), height(root->right));`
+    
+      or
 
-    `return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));`
+      `return Math.max(findHeight(root.left, height+1), findHeight(root.right, height+1));`
 
 
 
