@@ -30,7 +30,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 
 We can do this in 4 ways
 
-  1. BFS - Using 2 queues
+  1. BFS - Using 2 queues ()
   2. BFS - Using 1 queue and sentinel
 
 - ### BFS: Two Queues
