@@ -29,7 +29,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
 ## Level-order traversal
 
     4 ways
-    1. 
+1. 
 
 - ### BFS: Two Queues
   - **Can be done using Queue and subList(or another queue)** 
