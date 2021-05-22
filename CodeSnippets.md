@@ -4,11 +4,11 @@
     - queue.poll()
     ```
  2. ```
-- ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {{ offer(root); }};
-  ArrayDeque<TreeNode> currLevel = new ArrayDeque();
-- currLevel = nextLevel.clone();
-- nextLevel.clear();
-```
+    - ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {{ offer(root); }};
+    ArrayDeque<TreeNode> currLevel = new ArrayDeque();
+    - currLevel = nextLevel.clone();
+    - nextLevel.clear();
+    ```
  3. third
  
  
