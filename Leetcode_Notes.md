@@ -185,7 +185,7 @@ We can do this in 4 ways
 
 ----------
 ### Rotten Oranges
-  - BFS Approach --> O(N), O()
+  - BFS Approach --> O(N), O(N)
   - BFS in-place approach
   - BFS Approach: 
       - Need to count number of fresh oranges to check if all freshones are rotten or not
