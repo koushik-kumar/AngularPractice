@@ -2,11 +2,7 @@
  2. second
  3. third
  
- ```
- Queue<TreeNode> queue = new LinkedList(){{ offer(root); offer(null); }};
- - queue.offer(element)
- - queue.poll()
-```
+ 
 
 ```
 - ArrayDeque<TreeNode> nextLevel = new ArrayDeque() {{ offer(root); }};
