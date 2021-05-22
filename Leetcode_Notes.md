@@ -188,7 +188,7 @@ We can do this in 4 ways
   - **BFS Approach** 
     - O(N) - scanning and while loop 
     - O(N) - all rotten oranges in the grid.
-  - BFS in-place approach**   
+  - **BFS in-place approach**   
     - O(N^2)
     - O(1)
   
