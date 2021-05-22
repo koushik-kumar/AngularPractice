@@ -40,7 +40,7 @@ problem: https://leetcode.com/problems/balanced-binary-tree/
     }
     ```
   - **Can be done inserting null**
-    ****
+    **BFS: One Queue + Sentinel**
     ```
     public List<Integer> rightSideView(TreeNode root) {
         if (root == null) return new ArrayList<Integer>();
