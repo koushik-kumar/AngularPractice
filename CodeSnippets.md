@@ -2,3 +2,7 @@
 
  `queue.offer(element)`
  `queue.poll()`
+
+
+ currLevel = nextLevel.clone();
+        nextLevel.clear();
