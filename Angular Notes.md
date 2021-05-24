@@ -164,7 +164,7 @@ public myStyles = {
 
 ```
 <div (click)="onDivClicked()">
-      <button (click)="onSave($event)">Save</button>
-    </div>
+  <button (click)="onSave($event)">Save</button>
+</div>
 ```
 
