@@ -182,6 +182,7 @@ public onDivClicked() {
 `<input (keyup) = "onKeyUp($event)" />`
 
 
+
 ----------
 `<input (keyup.enter)="onKeyUp()" />`
 
