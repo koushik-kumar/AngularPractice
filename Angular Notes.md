@@ -179,5 +179,5 @@ public onDivClicked() {
 ```
 
 ----------
-<input (keyup.enter)="onKeyUp()" />
+`<input (keyup.enter)="onKeyUp()" />
 
