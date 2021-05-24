@@ -168,5 +168,13 @@ public myStyles = {
 </div>
 ```
 ```
+public onSave($event: MouseEvent) {
+    $event.stopPropagation();
+    console.log('Button was clicked', $event);
+  }
+
+  public onDivClicked() {
+    console.log('Div was clicked');
+  }
 ```
 
