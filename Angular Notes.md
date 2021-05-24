@@ -181,7 +181,9 @@ public onDivClicked() {
 ----------
 `<input (keyup) = "onKeyUp($event)" />`
 ```
-
+onKeyUp($event:KeyboardEvent){
+    if($event.keyCode === 13) console.log("ENTER was pressed.");
+  }
 ```
 
 
