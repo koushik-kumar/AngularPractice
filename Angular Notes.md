@@ -163,5 +163,8 @@ public myStyles = {
 - stopPropagation() -- Stopping the event propagation to the enclosing tags.
 
 ```
+<div (click)="onDivClicked()">
+      <button (click)="onSave($event)">Save</button>
+    </div>
 ```
 
