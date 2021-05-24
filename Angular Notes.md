@@ -185,8 +185,6 @@ onKeyUp($event:KeyboardEvent){
     if($event.keyCode === 13) console.log("ENTER was pressed.");
   }
 ```
-
-
 ----------
 `<input (keyup.enter)="onKeyUp()" />`
 
