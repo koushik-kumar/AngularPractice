@@ -187,7 +187,6 @@ onKeyUp($event:KeyboardEvent){
 ```
 ----------
 `<input (keyup.enter)="onKeyUp()" />`
-
 ```
 onKeyUp() {
     console.log('ENTER was pressed.');
