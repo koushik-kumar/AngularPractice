@@ -182,5 +182,7 @@ public onDivClicked() {
 `<input (keyup.enter)="onKeyUp()" />`
 
 ```
-
+onKeyUp() {
+    console.log('ENTER was pressed.');
+  }
 ```
