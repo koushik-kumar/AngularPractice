@@ -207,5 +207,5 @@ onKeyUp(email_variable)) {
   }
 ```
 ----------
-``
+`<input [(ngModel)]="email" (keyup.enter)="onKeyUp()" />`
 
