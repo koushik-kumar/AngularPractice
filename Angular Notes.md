@@ -169,12 +169,12 @@ public myStyles = {
 ```
 ```
 public onSave($event: MouseEvent) {
-    $event.stopPropagation();
-    console.log('Button was clicked', $event);
-  }
+  $event.stopPropagation();
+  console.log('Button was clicked', $event);
+}
 
-  public onDivClicked() {
-    console.log('Div was clicked');
-  }
+public onDivClicked() {
+  console.log('Div was clicked');
+}
 ```
 
