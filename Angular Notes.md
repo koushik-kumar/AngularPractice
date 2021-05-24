@@ -200,5 +200,5 @@ onKeyUp($event) {
   }
 ```
 ----------
-`<input [value] = "email" (keyup.enter)="onKeyUp()" />`
+`<input  (keyup.enter)="onKeyUp()" />`
 
