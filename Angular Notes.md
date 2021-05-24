@@ -193,4 +193,4 @@ onKeyUp() {
 }
 ```
 ----------
-``
+`<input (keyup.enter)="onKeyUp($event)" />`
