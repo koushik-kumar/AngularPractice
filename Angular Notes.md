@@ -209,6 +209,9 @@ onKeyUp(email_variable)) {
 ----------
 `<input [(ngModel)]="email" (keyup.enter)="onKeyUp()" />`
 ```
-
+public email = "abc@def.com";
+  onKeyUp() {
+    console.log(this.email);
+  }
 ```
 
