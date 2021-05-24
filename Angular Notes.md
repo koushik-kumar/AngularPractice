@@ -202,6 +202,8 @@ onKeyUp($event) {
 ----------
 `<input #email (keyup.enter)="onKeyUp(email.value)" />`
 ```
-
+onKeyUp($event) {
+    console.log($event.target.value);
+  }
 ```
 
