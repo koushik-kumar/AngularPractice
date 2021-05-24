@@ -195,5 +195,7 @@ onKeyUp() {
 ----------
 `<input (keyup.enter)="onKeyUp($event)" />`
 ```
-
+onKeyUp($event) {
+    console.log($event.target.value);
+  }
 ```
