@@ -224,4 +224,4 @@ public email = "abc@def.com";
 
 
 ## Notes
-- Anything that adds or deletes data from DOM should have 
+- Anything that adds or deletes data from DOM should have * in the code, 
