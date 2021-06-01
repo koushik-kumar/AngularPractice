@@ -22,8 +22,7 @@ Latest version setup:
 ## Component:
 - **Component = Template(.html) + Class(.ts) + Metadata(decorators)**
 - Pascal Convention -> All words with first letter capital
-
-
+- 
 
 - If selector = 'app-student'
   ```language
