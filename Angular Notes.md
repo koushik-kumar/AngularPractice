@@ -21,6 +21,7 @@ Latest version setup:
 
 ## Component:
 - **Component = Template(.html) + Class(.ts) + Metadata(decorators)**
+- 
 
 - If selector = 'app-student'
   ```language
