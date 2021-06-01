@@ -219,4 +219,5 @@ public email = "abc@def.com";
 
 ## Dependency Injection
 - Injecting the class depedencies into its constructor
-- Follows singleton pattern, single instanc of service to all the accesss 
+- Follows singleton pattern, single instanc of service to all the accessing classes
+-  
