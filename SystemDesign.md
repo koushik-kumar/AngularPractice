@@ -1,6 +1,6 @@
 ## List of Concepts
 
-
+1. 
 Amount of data (disk)
 Amount of RAM (memory)
 Does everything need to be in RAM? (often times – yes)
