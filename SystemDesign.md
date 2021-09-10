@@ -29,7 +29,7 @@
 27. High availability
 28. CDNs (content delivery networks)
 29. POPs (points of presence)
-Queues
+30. Queues
 Failures
 Timeouts
 Fault tolerance
