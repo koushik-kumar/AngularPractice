@@ -1,3 +1,7 @@
+
+
+
+
 ## List of Concepts
 
 1. Amount of data (disk)
