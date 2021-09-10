@@ -24,7 +24,7 @@
 22. Many requests for the same data/lots of updates – should be in cache
 23. Distribute so that the network is negligible
 24. Parallelizing network requests
-Fan-out (scatter and gather)
+25. Fan-out (scatter and gather)
 Load-balancing
 High availability
 CDNs (content delivery networks)
