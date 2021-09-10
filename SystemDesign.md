@@ -30,7 +30,7 @@
 28. CDNs (content delivery networks)
 29. POPs (points of presence)
 30. Queues
-Failures
+31. Failures
 Timeouts
 Fault tolerance
 Failing fast
