@@ -33,7 +33,7 @@
 31. Failures
 32. Timeouts
 33. Fault tolerance
-Failing fast
+34. Failing fast
 Circuit breakers
 Throttling
 Consensus (e.g. Paxos, Raft) and membership protocols (heartbeats, SWIM)
