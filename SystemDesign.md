@@ -37,5 +37,6 @@
 35. Circuit breakers
 36. Throttling
 37. Consensus (e.g. Paxos, Raft) and membership protocols (heartbeats, SWIM)
-38. CompressionPossible to work harder on writes in order to make reads easier
+38. Compression
+39. Possible to work harder on writes in order to make reads easier
 Operations should almost never be more than n*log(n), preferably n
