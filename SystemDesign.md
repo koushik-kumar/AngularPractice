@@ -4,7 +4,8 @@
 2. Amount of RAM (memory)
 3. Does everything need to be in RAM? (often times – yes)
 4. RAID configurations
-5. Requests/secRequest time
+5. Requests/sec
+6. Request time
 Latency
 Data transfer rates
 Network limits within a single data center
