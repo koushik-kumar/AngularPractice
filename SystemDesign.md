@@ -1,8 +1,7 @@
 ## List of Concepts
 
 1. Amount of data (disk)
-2. 
-Amount of RAM (memory)
+2. Amount of RAM (memory)
 Does everything need to be in RAM? (often times – yes)
 RAID configurations
 Requests/sec
