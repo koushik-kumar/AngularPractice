@@ -1,4 +1,4 @@
-## LeetCode Studying Approach
+## LeetCode Studying Approach:
 
 1. Do Breadth-First Scan of “Easy” questions from each Topic on Leetcode
     1. Try to get it right on the first try
