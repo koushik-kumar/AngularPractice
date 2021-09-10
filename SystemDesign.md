@@ -11,7 +11,7 @@
 9. Network limits within a single data center
 10. Geographically separated locations (multiple data centers)
 11. Sharding/Partitioning (by user/date/content-type/alphabetically)
-How do you re-balance?
+12. How do you re-balance?
 Consistent hashing for sharding/partitioning
 CAP theorem
 MapReduce
