@@ -13,7 +13,7 @@
 11. Sharding/Partitioning (by user/date/content-type/alphabetically)
 12. How do you re-balance?
 13. Consistent hashing for sharding/partitioning
-CAP theorem
+14. CAP theorem
 MapReduce
 Distributed hash tables
 Difference between frontend/backend
