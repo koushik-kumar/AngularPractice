@@ -18,7 +18,7 @@
 16. Distributed hash tables
 17. Difference between frontend/backend
 18. SOA (service oriented architectures, also “micro-services”)
-Backups
+19. Backups
 Backup a single user on how many servers?
 Caching
 Many requests for the same data/lots of updates – should be in cache
