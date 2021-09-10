@@ -22,7 +22,7 @@
 20. Backup a single user on how many servers?
 21. Caching
 22. Many requests for the same data/lots of updates – should be in cache
-Distribute so that the network is negligible
+23. Distribute so that the network is negligible
 Parallelizing network requests
 Fan-out (scatter and gather)
 Load-balancing
