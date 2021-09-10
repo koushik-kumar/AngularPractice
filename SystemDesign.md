@@ -27,7 +27,7 @@
 25. Fan-out (scatter and gather)
 26. Load-balancing
 27. High availability
-CDNs (content delivery networks)
+28. CDNs (content delivery networks)
 POPs (points of presence)
 Queues
 Failures
