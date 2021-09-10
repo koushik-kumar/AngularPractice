@@ -15,7 +15,7 @@
 13. Consistent hashing for sharding/partitioning
 14. CAP theorem
 15. MapReduce
-Distributed hash tables
+16. Distributed hash tables
 Difference between frontend/backend
 SOA (service oriented architectures, also “micro-services”)
 Backups
