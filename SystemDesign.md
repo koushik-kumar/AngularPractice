@@ -14,7 +14,7 @@
 12. How do you re-balance?
 13. Consistent hashing for sharding/partitioning
 14. CAP theorem
-MapReduce
+15. MapReduce
 Distributed hash tables
 Difference between frontend/backend
 SOA (service oriented architectures, also “micro-services”)
