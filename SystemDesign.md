@@ -6,8 +6,7 @@
 4. RAID configurations
 5. Requests/sec
 6. Request time
-7. Latency
-Data transfer rates
+7. LatencyData transfer rates
 Network limits within a single data center
 Geographically separated locations (multiple data centers)
 Sharding/Partitioning (by user/date/content-type/alphabetically)
