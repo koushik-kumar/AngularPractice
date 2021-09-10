@@ -3,7 +3,8 @@
 1. Amount of data (disk)
 2. Amount of RAM (memory)
 3. Does everything need to be in RAM? (often times – yes)
-4. RAID configurations\Requests/sec
+4. RAID configurations
+5. Requests/sec
 Request time
 Latency
 Data transfer rates
