@@ -28,7 +28,7 @@
 26. Load-balancing
 27. High availability
 28. CDNs (content delivery networks)
-POPs (points of presence)
+29. POPs (points of presence)
 Queues
 Failures
 Timeouts
