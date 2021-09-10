@@ -17,7 +17,7 @@
 15. MapReduce
 16. Distributed hash tables
 17. Difference between frontend/backend
-SOA (service oriented architectures, also “micro-services”)
+18. SOA (service oriented architectures, also “micro-services”)
 Backups
 Backup a single user on how many servers?
 Caching
