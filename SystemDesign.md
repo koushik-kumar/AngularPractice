@@ -16,7 +16,7 @@
 14. CAP theorem
 15. MapReduce
 16. Distributed hash tables
-Difference between frontend/backend
+17. Difference between frontend/backend
 SOA (service oriented architectures, also “micro-services”)
 Backups
 Backup a single user on how many servers?
