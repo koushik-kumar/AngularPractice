@@ -3,7 +3,7 @@
 1. Amount of data (disk)
 2. Amount of RAM (memory)
 3. Does everything need to be in RAM? (often times – yes)
-RAID configurations
+4. RAID configurations
 Requests/sec
 Request time
 Latency
