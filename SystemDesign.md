@@ -23,7 +23,7 @@
 21. Caching
 22. Many requests for the same data/lots of updates – should be in cache
 23. Distribute so that the network is negligible
-Parallelizing network requests
+24. Parallelizing network requests
 Fan-out (scatter and gather)
 Load-balancing
 High availability
