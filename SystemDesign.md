@@ -7,7 +7,8 @@
 5. Requests/sec
 6. Request time
 7. Latency
-8. Data transfer ratesNetwork limits within a single data center
+8. Data transfer rates
+9. Network limits within a single data center
 Geographically separated locations (multiple data centers)
 Sharding/Partitioning (by user/date/content-type/alphabetically)
 How do you re-balance?
