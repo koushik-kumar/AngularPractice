@@ -25,7 +25,7 @@
 23. Distribute so that the network is negligible
 24. Parallelizing network requests
 25. Fan-out (scatter and gather)
-Load-balancing
+26. Load-balancing
 High availability
 CDNs (content delivery networks)
 POPs (points of presence)
