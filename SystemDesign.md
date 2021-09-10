@@ -31,8 +31,8 @@
 29. POPs (points of presence)
 30. Queues
 31. Failures
-Timeouts
-Fault tolerance
+32. Timeouts
+33. Fault tolerance
 Failing fast
 Circuit breakers
 Throttling
