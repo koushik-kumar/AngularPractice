@@ -259,4 +259,4 @@ We can do this in 4 ways
 - Time Complexity
 
 ### Union Find
- - 
+ - Can check connected graphs,
