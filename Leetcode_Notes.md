@@ -251,6 +251,6 @@ We can do this in 4 ways
 ----------
 ## Graphs
 
-- Test cases matter here, 
+- Test cases matter here. 
 
 ### Union Find
