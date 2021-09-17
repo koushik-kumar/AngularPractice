@@ -251,6 +251,6 @@ We can do this in 4 ways
 ----------
 ## Graphs
 
-- Tes cases matter here. 
+- Edge cases matter here. 
 
 ### Union Find
