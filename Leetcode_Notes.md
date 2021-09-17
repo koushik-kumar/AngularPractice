@@ -260,4 +260,4 @@ We can do this in 4 ways
 
 ### Union Find
  - Can check connected graphs
- - Count variable for number of nodes in ~~
+ - Count variable --> decre
