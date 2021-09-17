@@ -254,6 +254,6 @@ We can do this in 4 ways
 - Edge cases matter here. 
   - number of node = 1 and edges = [] is true most of the times
   - number of ndoes = 2 and edges = [] --> this will be false
-- 
+  - 
 
 ### Union Find
