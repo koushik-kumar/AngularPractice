@@ -251,6 +251,7 @@ We can do this in 4 ways
 ----------
 ## Graphs
 
-- Edge cases matter here. number of node = 1 and edges = [] is true most of the times
+- Edge cases matter here. 
+  - number of node = 1 and edges = [] is true most of the times
 
 ### Union Find
