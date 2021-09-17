@@ -260,4 +260,5 @@ We can do this in 4 ways
 
 ### Union Find
  - Can check connected graphs
- - Count variable --> decre
+ - Count variable --> decreases only if roots of X and Y dont match
+ - 
