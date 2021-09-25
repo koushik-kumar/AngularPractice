@@ -1,4 +1,38 @@
 ## Stack using Array
 ```
+class CustomStack {
 
+    int[] stack;
+    int index;
+    
+    public CustomStack(int maxSize) {
+        stack = new int[maxSize];
+        index = 0;
+    }
+    
+    public void push(int x) {
+        if(index < stack.length){
+            stack[index] = x;
+            index++;
+        }
+    }
+    
+    public int pop() {
+        if(index > 0){
+            int temp = stack[index - 1];
+            stack[index - 1] = 0;
+            index--;
+            return temp;
+        }        
+        
+        return -1;
+    }
+    
+    public void increment(int k, int val) {
+        k = Math.min(k, index);
+        for(int i = 0; i < k; i++){
+            stack[i] += val;
+        }
+    }
+}
 ```
