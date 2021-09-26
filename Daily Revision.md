@@ -180,7 +180,7 @@ public class QueueUsingArray{
 
     public void dequeue(){
         if(front == rear){
-            System.out.println(")
+            System.out.println("")
         }
 
     }
