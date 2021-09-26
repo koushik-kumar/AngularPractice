@@ -45,6 +45,7 @@ public class ArrayList{
         modCount++;
         // overflow-conscious code
         if (minCapacity - elementData.length > 0)
+            grow(minCapacity);
 }
 
 
