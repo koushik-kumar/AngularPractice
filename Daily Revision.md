@@ -31,6 +31,12 @@ public class ArrayList{
         ensureCapacityInternal(size + 1); // Increments modCount!! elementData[size++] = e;
         return true;
     }
+
+    private void ensureCapacityInternal(int minCapacity) {
+if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
+minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity); }
+    ensureExplicitCapacity(minCapacity);
+}
 }
 
 
