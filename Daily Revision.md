@@ -11,7 +11,8 @@ public class ArrayList{
 
 
      myList = new ArrayList();
-     
+      public ArrayList() {
+
 }
 
 
