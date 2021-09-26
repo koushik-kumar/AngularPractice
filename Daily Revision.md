@@ -1,6 +1,14 @@
 ## ArrayList
+
+Points to note
+1. ArrayList in Java is a Resizable-array implementation of the List interface.
+2. Internally ArrayList class uses an array of Object class to store its elements.
+3. When initializing an ArrayList you can provide initial capacity then the array would be of the size
+provided as initial capacity.
+4. If initial capacity is not specified then default capacity is used to create an array. Default capacity is 10.
+5. When an element is added to an ArrayList it first verifies whether it can accommodate the new element or it needs to grow, in case capacity has to be increased then the new capacity is calculated which is 50% more than the old capacity and the array is increased by that much capacity.
+6. When elements are removed from an ArrayList space created by the removal of an element has to be filled in the underlying array. That is done by Shifting any subsequent elements to the left.
 public class ArrayList{
-    
     transient Object[] elementData;
 
     public ArrayList(int initialCapacity) { 
