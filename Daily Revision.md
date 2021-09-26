@@ -72,6 +72,7 @@ public class ArrayList{
     // What happens when an element is removed from ArrayList
     System.arraycopy(elementData, index+1, elementData, index, numMoved);
 }
+```
 
 
 ## Stack using Array
