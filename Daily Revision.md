@@ -47,7 +47,7 @@ public class ArrayList{
         if (minCapacity - elementData.length > 0)
             grow(minCapacity);
         }
-}
+    }
 }
 
 
