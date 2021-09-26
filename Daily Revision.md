@@ -162,9 +162,9 @@ class CustomStack {
 public class QueueUsingArray{
     public int[] queue;
 
-Queue(int c){
-    queue = new int[c];
-}
+    Queue(int c){
+        queue = new int[c];
+    }
 
 
 }
