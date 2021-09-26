@@ -40,6 +40,10 @@ public class ArrayList{
     }
 
     private static final int DEFAULT_CAPACITY = 10;
+
+    private void ensureExplicitCapacity(int minCapacity) { modCount++;
+    // overflow-conscious code
+if (minCapacity - elementData.length > 0)
 }
 
 
