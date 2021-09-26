@@ -205,7 +205,7 @@ public class QueueUsingArray{
             return;
         }
 
-        for(int e : )
+        for(int e : queue)
     }
 
 
