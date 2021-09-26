@@ -205,7 +205,9 @@ public class QueueUsingArray{
             return;
         }
 
-        for(int e : queue)
+        for(int e : queue){
+            System.out.print()
+        }
     }
 
 
