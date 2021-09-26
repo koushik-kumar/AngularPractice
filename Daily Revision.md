@@ -57,6 +57,8 @@ public class ArrayList{
         // minCapacity is usually close to size, so this is a win: 
         elementData = Arrays.copyOf(elementData, newCapacity);
     }
+
+    What happens when an element is removed from ArrayList
 }
 
 
