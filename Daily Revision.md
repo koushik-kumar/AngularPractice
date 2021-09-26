@@ -171,6 +171,7 @@ public class QueueUsingArray{
 
     public void enqueue(int e){
         if(rear == capacity)
+        
     }
 
     public void dequeue(){
