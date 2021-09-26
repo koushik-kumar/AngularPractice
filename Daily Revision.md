@@ -26,6 +26,11 @@ public class ArrayList{
     private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 
     elementData = Arrays.copyOf(elementData, size, Object[].class);
+
+    public boolean add(E e) {
+ensureCapacityInternal(size + 1); // Increments modCount!! elementData[size++] = e;
+return true;
+}
 }
 
 
