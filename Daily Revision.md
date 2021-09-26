@@ -196,7 +196,7 @@ public class QueueUsingArray{
             return;
         }
 
-        return queu[front]
+        return queu[front];
     }
 
 
