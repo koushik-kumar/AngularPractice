@@ -1,5 +1,7 @@
 ## ArrayList
-public class ArrayList
+public class ArrayList{
+    transient Object[] elementData;
+}
 
 
 ## Stack using Array
