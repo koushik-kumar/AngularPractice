@@ -220,4 +220,4 @@ public class QueueUsingArray{
 
 ```
 
-## Implement Hash
+## Implement HashMap
