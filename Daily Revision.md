@@ -48,6 +48,7 @@ public class ArrayList{
             grow(minCapacity);
         }
 }
+}
 
 
 ## Stack using Array
