@@ -179,7 +179,9 @@ public class QueueUsingArray{
     }
 
     public void dequeue(){
-        if(front == rear)
+        if(front == rear){
+            System.out.println(")
+        }
 
     }
 
