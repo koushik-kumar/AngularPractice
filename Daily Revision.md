@@ -24,6 +24,8 @@ public class ArrayList{
     * first element is added.
     */
     private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
+
+     elementData = Arrays.copyOf(elementData, size, Object[].class);
 }
 
 
