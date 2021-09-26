@@ -190,7 +190,7 @@ public class QueueUsingArray{
         rear--;
     }
 
-    
+    public int 
 
 
 }
