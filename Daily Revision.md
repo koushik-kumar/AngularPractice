@@ -36,7 +36,7 @@ public class ArrayList{
     if (elementData == DEFAULTCAPACITY_EMPTY_ELEMENTDATA) {
         minCapacity = Math.max(DEFAULT_CAPACITY, minCapacity); 
     }
-        ensureExplicitCapacity(minCapacity);
+    ensureExplicitCapacity(minCapacity);
     }
 }
 
