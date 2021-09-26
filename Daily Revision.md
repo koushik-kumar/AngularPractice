@@ -175,6 +175,7 @@ public class QueueUsingArray{
             return;
         }
         queue[rear] = e;
+        rear++;
     }
 
     public void dequeue(){
