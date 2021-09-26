@@ -7,7 +7,7 @@ public class ArrayList{
         this.elementData = EMPTY_ELEMENTDATA; } else {
         throw new IllegalArgumentException("Illegal Capacity: "+ initialCapacity);
     }
-    
+    }
 }
 
 
