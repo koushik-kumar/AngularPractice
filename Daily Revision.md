@@ -24,6 +24,12 @@ public class ArrayList{
     }
 
 
+/**
+    * Shared empty array instance used for default sized empty instances. We
+    * distinguish this from EMPTY_ELEMENTDATA to know how much to inflate when
+    * first element is added.
+    */
+    private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
     myList = new ArrayList();
     public ArrayList() {
         this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
