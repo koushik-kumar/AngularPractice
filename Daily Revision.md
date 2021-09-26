@@ -174,7 +174,7 @@ public class QueueUsingArray{
             System.out.println("Queue is full");
             return;
         }
-        queue[]
+        queue[rear]
 
     }
 
