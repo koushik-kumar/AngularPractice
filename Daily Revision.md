@@ -25,7 +25,7 @@ public class ArrayList{
     */
     private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
 
-     elementData = Arrays.copyOf(elementData, size, Object[].class);
+    elementData = Arrays.copyOf(elementData, size, Object[].class);
 }
 
 
