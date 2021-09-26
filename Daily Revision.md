@@ -171,7 +171,7 @@ public class QueueUsingArray{
 
     public void enqueue(int e){
         if(rear == capacity){
-            S
+            System.out.println(")
         }
 
     }
