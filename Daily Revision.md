@@ -29,7 +29,7 @@ public class ArrayList{
 
     public boolean add(E e) {
         ensureCapacityInternal(size + 1); // Increments modCount!! elementData[size++] = e;
-    return true;
+        return true;
     }
 }
 
