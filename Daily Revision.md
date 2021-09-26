@@ -182,6 +182,7 @@ public class QueueUsingArray{
         if(front == rear){
             System.out.println("Queue is empty");
         }
+        
 
     }
 
