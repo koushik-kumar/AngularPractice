@@ -163,7 +163,7 @@ public class QueueUsingArray{
     public int[] queue;
 
 Queue(int c){
-    queue = new int[c]
+    queue = new int[c];
 }
 }
 
