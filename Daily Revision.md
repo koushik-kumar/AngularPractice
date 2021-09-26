@@ -165,7 +165,7 @@ public class QueueUsingArray{
 
     Queue(int c){
         capacity = c;
-        front = 0; re
+        front = 0; rear = 0
         queue = new int[c];
     }
 
