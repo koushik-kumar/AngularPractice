@@ -4,7 +4,7 @@ public class ArrayList{
 
     public ArrayList(int initialCapacity) { 
         if (initialCapacity > 0) {
-        this.elementData = new Object[initialCapacity]; 
+            this.elementData = new Object[initialCapacity]; 
         } else if (initialCapacity == 0) {
             this.elementData = EMPTY_ELEMENTDATA; 
         } else {
