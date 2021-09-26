@@ -190,7 +190,9 @@ public class QueueUsingArray{
         rear--;
     }
 
-    public int front(){}
+    public int front(){
+        
+    }
 
 
 }
