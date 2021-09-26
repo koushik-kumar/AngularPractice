@@ -171,7 +171,9 @@ public class QueueUsingArray{
 
     public void enqueue()
 
-    public void deg
+    public void dequeue(){
+        
+    }
 
 
 }
