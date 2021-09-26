@@ -58,7 +58,8 @@ public class ArrayList{
         elementData = Arrays.copyOf(elementData, newCapacity);
     }
 
-    //What happens when an element is removed from ArrayList
+    // What happens when an element is removed from ArrayList
+    System.arraycopy(elementData, index+1, elementData, index, numMoved);
 }
 
 
