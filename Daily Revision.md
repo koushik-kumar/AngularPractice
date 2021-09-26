@@ -171,8 +171,10 @@ public class QueueUsingArray{
 
     public void enqueue(int e){
         if(rear == capacity){
-            System.out.println("Queue is full")
+            System.out.println("Queue is full");
+            return;
         }
+        
 
     }
 
