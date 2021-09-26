@@ -219,3 +219,5 @@ public class QueueUsingArray{
 }
 
 ```
+
+## Implement Hash
