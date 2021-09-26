@@ -12,8 +12,8 @@ public class ArrayList{
 
      myList = new ArrayList();
       public ArrayList() {
-        this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
-        }
+    this.elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA;
+    }
 }
 
 
