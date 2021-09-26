@@ -157,6 +157,9 @@ class CustomStack {
 
 ## Implement Queue using array
 
+- Enqueue
+- Dequeue
+- 
 
 ```
 
