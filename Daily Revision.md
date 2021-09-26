@@ -159,6 +159,7 @@ class CustomStack {
 
 - Enqueue
 - Dequeue
+- Print
 - 
 
 ```
