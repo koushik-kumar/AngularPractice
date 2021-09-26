@@ -181,9 +181,10 @@ public class QueueUsingArray{
     public void dequeue(){
         if(front == rear){
             System.out.println("Queue is empty");
+            return;
         }
         
-        
+
     }
 
 
