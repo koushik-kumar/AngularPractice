@@ -191,7 +191,7 @@ public class QueueUsingArray{
     }
 
     public int front(){
-        
+        if()
     }
 
 
