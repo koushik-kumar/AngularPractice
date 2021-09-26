@@ -13,6 +13,8 @@ provided as initial capacity.
 public class ArrayList{
     transient Object[] elementData;
     private static final Object[] EMPTY_ELEMENTDATA = {};
+    private static final int DEFAULT_CAPACITY = 10;
+
 
     public ArrayList(int initialCapacity) { 
         if (initialCapacity > 0) {
