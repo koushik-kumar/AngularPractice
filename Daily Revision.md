@@ -200,7 +200,12 @@ public class QueueUsingArray{
     }
 
     public void print(){
-        
+        if(front == rear){
+            System.out.println("Queue is empty");
+            return;
+        }
+
+        for(int e : )
     }
 
 
