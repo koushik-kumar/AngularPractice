@@ -8,6 +8,9 @@ public class ArrayList{
             throw new IllegalArgumentException("Illegal Capacity: "+ initialCapacity);
         }
     }
+
+
+     myList = new ArrayList();
 }
 
 
