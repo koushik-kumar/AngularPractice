@@ -28,9 +28,9 @@ public class ArrayList{
     elementData = Arrays.copyOf(elementData, size, Object[].class);
 
     public boolean add(E e) {
-ensureCapacityInternal(size + 1); // Increments modCount!! elementData[size++] = e;
-return true;
-}
+    ensureCapacityInternal(size + 1); // Increments modCount!! elementData[size++] = e;
+    return true;
+    }
 }
 
 
