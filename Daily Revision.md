@@ -159,6 +159,6 @@ class CustomStack {
 
 ```
 
-public class Queue
+public class QueueQ
 
 ```
