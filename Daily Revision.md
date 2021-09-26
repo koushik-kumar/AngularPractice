@@ -38,6 +38,8 @@ public class ArrayList{
         }
         ensureExplicitCapacity(minCapacity);
     }
+
+    private static final int DEFAULT_CAPACITY = 10;
 }
 
 
