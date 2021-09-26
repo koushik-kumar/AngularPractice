@@ -44,7 +44,7 @@ public class ArrayList{
     private void ensureExplicitCapacity(int minCapacity) { 
         modCount++;
         // overflow-conscious code
-    if (minCapacity - elementData.length > 0)
+        if (minCapacity - elementData.length > 0)
 }
 
 
