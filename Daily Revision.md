@@ -22,6 +22,7 @@ public class ArrayList{
     */
     private static final Object[] DEFAULTCAPACITY_EMPTY_ELEMENTDATA = {};
     
+    
 
     public ArrayList(int initialCapacity) { 
         if (initialCapacity > 0) {
