@@ -1,5 +1,8 @@
 ## ArrayList
 public class ArrayList{
+
+
+    
     transient Object[] elementData;
 
     public ArrayList(int initialCapacity) { 
