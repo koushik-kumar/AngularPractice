@@ -185,7 +185,7 @@ public class QueueUsingArray{
         }
         
         for(int i = 0; i < rear; i++){
-            
+            queue[i] = 
         }
     }
 
