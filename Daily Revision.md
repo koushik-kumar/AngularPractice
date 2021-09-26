@@ -55,7 +55,7 @@ public class ArrayList{
     if (newCapacity - MAX_ARRAY_SIZE > 0)
         newCapacity = hugeCapacity(minCapacity);
         // minCapacity is usually close to size, so this is a win: 
-        elementData = Arrays.copyOf(elementData, newCapacity);
+    elementData = Arrays.copyOf(elementData, newCapacity);
     }
 }
 
