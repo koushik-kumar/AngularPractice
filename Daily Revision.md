@@ -160,7 +160,7 @@ class CustomStack {
 - Enqueue
 - Dequeue
 - Print
-- 
+- Front
 
 ```
 
