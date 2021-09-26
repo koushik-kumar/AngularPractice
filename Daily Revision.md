@@ -1,7 +1,5 @@
 ## ArrayList
 public class ArrayList{
-
-
     
     transient Object[] elementData;
 
