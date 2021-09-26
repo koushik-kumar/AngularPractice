@@ -160,7 +160,9 @@ class CustomStack {
 ```
 
 public class QueueUsingArray{
-    public int
+    public int[] queue;
+
+    
 }
 
 ```
