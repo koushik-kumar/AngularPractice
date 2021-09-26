@@ -169,7 +169,7 @@ public class QueueUsingArray{
         queue = new int[c];
     }
 
-    public void 
+    public void equeue
 
 
 }
