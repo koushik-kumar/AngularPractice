@@ -170,7 +170,7 @@ public class QueueUsingArray{
     }
 
     public void enqueue(int e){
-        if(rear )
+        if(rear == )
     }
 
     public void dequeue(){
