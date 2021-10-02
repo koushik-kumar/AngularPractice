@@ -645,6 +645,8 @@ class RecursiveBinarySearch
 		int high= A.length - 1;
 		int index = binarySearch(A, low, high, key);
 
+
+
 		if (index != -1) {
 			System.out.println("Element found at index " + index);
 		} else {
