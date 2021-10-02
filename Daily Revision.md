@@ -239,8 +239,6 @@ class MyHashMap
 {
  ListNode[] nodes = new ListNode[10000];
 
-​
-
  public int get(int key)
 
  {
