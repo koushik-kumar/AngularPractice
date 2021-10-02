@@ -265,7 +265,6 @@ class MyHashSet {
            storage[bucket] = new boolean[bucketItems]; 
 
        }
-
        storage[bucket][bucketItem] = true;
    }
 
