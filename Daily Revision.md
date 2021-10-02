@@ -237,7 +237,6 @@ CODE:
 ```
 class MyHashMap
 {
-
  ListNode[] nodes = new ListNode[10000];
 
 ​
