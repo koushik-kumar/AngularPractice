@@ -269,8 +269,6 @@ class MyHashMap
    return Integer.hashCode(key) % nodes.length;
  }
 
-​
-
  private ListNode findElement(int index, int key)
 
  {
