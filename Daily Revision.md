@@ -254,7 +254,6 @@ class MyHashMap
      prev.next = new ListNode(key, value);
    else 
      prev.next.val = value;
-
  }
 
 ​
