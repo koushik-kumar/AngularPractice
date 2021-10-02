@@ -227,7 +227,7 @@ public class QueueUsingArray{
 We are going to use array to implement hashset and do the operations on an array to implement hashset
 
 Time complexity: every operation is being done in O(1) time complexity
-
+```
 class MyHashSet {
 
    int buckets = 1000;
