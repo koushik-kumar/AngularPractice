@@ -248,11 +248,8 @@ class MyHashMap
 
  public void put(int key, int value)
  {
-
    int index = getIndex(key);
-
    ListNode prev = findElement(index, key);
-
    if (prev.next == null)
 
      prev.next = new ListNode(key, value);
