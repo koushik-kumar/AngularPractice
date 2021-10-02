@@ -293,6 +293,5 @@ class MyHashSet {
        int bucketItem = bucketItem(value);
 
        return storage[bucket] != null && storage[bucket][bucketItem];
-
    }
 }
