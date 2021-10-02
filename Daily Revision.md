@@ -261,7 +261,6 @@ class MyHashMap
    int index = getIndex(key);
    ListNode prev = findElement(index, key);
    if(prev.next != null)
-
      prev.next = prev.next.next;
 
  }
