@@ -232,7 +232,6 @@ class MyHashSet {
 
    int buckets = 1000;
    int bucketItems = 1000;
-
    boolean [][] storage = new boolean[buckets][];
 
    public int bucket(int value){ 
