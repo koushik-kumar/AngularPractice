@@ -273,7 +273,6 @@ class MyHashSet {
    public void remove(int value) {
 
         int bucket = bucket(value);
-
         int bucketItem = bucketItem(value);
        if(storage[bucket] != null){
            storage[bucket][bucketItem] = false;
