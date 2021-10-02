@@ -283,8 +283,6 @@ class MyHashMap
    return prev;
  }
 
-​
-
  private static class ListNode
 
  {
