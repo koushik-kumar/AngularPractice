@@ -237,9 +237,7 @@ class MyHashSet {
    boolean [][] storage = new boolean[buckets][];
 
    public int bucket(int value){ 
-
        return value%buckets;
-
    }
 
    public int bucketItem(int value){ 
