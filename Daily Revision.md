@@ -267,7 +267,6 @@ class MyHashSet {
        }
 
        storage[bucket][bucketItem] = true;
-
    }
 
    public void remove(int value) {
