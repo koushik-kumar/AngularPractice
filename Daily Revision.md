@@ -270,13 +270,9 @@ class MyHashMap
  }
 
  private ListNode findElement(int index, int key)
-
  {
-
    if(nodes[index] == null)
-
      return nodes[index] = new ListNode(-1, -1);
-
    ListNode prev = nodes[index];
 
    while(prev.next != null && prev.next.key != key)
