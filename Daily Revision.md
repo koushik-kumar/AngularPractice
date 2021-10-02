@@ -287,7 +287,6 @@ class MyHashSet {
    /** Returns true if this set contains the specified element */
 
    public boolean contains(int value) {
-
        int bucket = bucket(value);
        int bucketItem = bucketItem(value);
        return storage[bucket] != null && storage[bucket][bucketItem];
