@@ -287,7 +287,6 @@ class MyHashMap
  {
    int key, val;
    ListNode next;
-
 ​
 
    ListNode(int key, int val)
