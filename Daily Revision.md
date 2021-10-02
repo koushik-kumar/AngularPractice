@@ -244,7 +244,6 @@ class MyHashSet {
 
    public int bucketItem(int value){ 
        return value/buckets;
-
    }
 
    /** Initialize your data structure here. */
