@@ -265,11 +265,8 @@ class MyHashMap
  }
 
  private int getIndex(int key)
-
  {  
-
    return Integer.hashCode(key) % nodes.length;
-
  }
 
 ​
