@@ -289,7 +289,6 @@ class MyHashMap
    ListNode next;
 ​
    ListNode(int key, int val)
-
    {
 
      this.key = key;
