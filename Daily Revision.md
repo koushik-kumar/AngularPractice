@@ -294,7 +294,6 @@ class MyHashMap
      this.val = val;
    }
  }
-
 }
 ```
 
