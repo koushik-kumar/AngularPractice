@@ -231,7 +231,6 @@ Time complexity: every operation is being done in O(1) time complexity
 class MyHashSet {
 
    int buckets = 1000;
-
    int bucketItems = 1000;
 
    boolean [][] storage = new boolean[buckets][];
