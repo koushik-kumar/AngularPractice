@@ -525,3 +525,5 @@ class Graph {
 
 
 
+## Binary Search 
+
