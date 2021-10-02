@@ -293,7 +293,6 @@ class MyHashMap
      this.key = key;
      this.val = val;
    }
-
  }
 
 }
