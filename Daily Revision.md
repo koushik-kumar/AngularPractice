@@ -276,11 +276,8 @@ class MyHashMap
    ListNode prev = nodes[index];
 
    while(prev.next != null && prev.next.key != key)
-
    {
-
      prev = prev.next;
-
    }
 
    return prev;
