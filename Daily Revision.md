@@ -256,8 +256,6 @@ class MyHashMap
      prev.next.val = value;
  }
 
-​
-
  public void remove(int key)
 
  {
