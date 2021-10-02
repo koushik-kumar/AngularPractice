@@ -599,4 +599,58 @@ class IterativeBinarySearch
 ```
 
 ```
+class RecursiveBinarySearch
+{
+	// Find out if a key x exists in the sorted array
+	// A[low..high] or not using binary search algorithm
+	public static int binarySearch(int[] A, int low, int high, int x)
+	{
+		// Base condition (search space is exhausted)
+		if (low > high) {
+			return -1;
+		}
+
+		// we find the mid value in the search space and
+		// compares it with key value
+
+		int mid = (low + high) / 2;
+
+		// overflow can happen. Use beleft
+		// int mid = low + (high - low) / 2;
+
+		// Base condition (key value is found)
+		if (x == A[mid]) {
+			return mid;
+		}
+
+		// discard all elements in the right search space
+		// including the mid element
+		else if (x < A[mid]) {
+			return binarySearch(A, low,  mid - 1, x);
+		}
+
+		// discard all elements in the left search space
+		// including the mid element
+		else {
+			return binarySearch(A, mid + 1,  high, x);
+		}
+	}
+
+	public static void main(String[] args)
+	{
+		int[] A = { 2, 5, 6, 8, 9, 10 };
+		int key = 5;
+
+		int low = 0;
+		int high= A.length - 1;
+		int index = binarySearch(A, low, high, key);
+
+		if (index != -1) {
+			System.out.println("Element found at index " + index);
+		} else {
+			System.out.println("Element not found in the array");
+		}
+	}
+}
+
 ```
