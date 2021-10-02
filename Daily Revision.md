@@ -236,7 +236,6 @@ Space complexity: O(n) - where n is the number of entries in HashMap
 CODE:
 ```
 class MyHashMap
-
 {
 
  ListNode[] nodes = new ListNode[10000];
