@@ -536,4 +536,64 @@ If number at position mid equal to key or target element then the control return
 *Else, if key or target is less than number at position mid then the portion of the Array from the mid upwards is removed from contention by making "high" equal to mid-1.
 Else, it implies that key element is greater than number at position mid(as it is not less than and also not equal, hence, it has to be greater). Hence, the portion of the list from mid and downwards is removed from contention by making "low" equal to mid+1.
 The while loop continues to iterate in this way till either the element is returned (indicating key has been found in the Array) or low becomes greater than high,in which case -1 is returned indicating that key could not be found and the same is printed as output.
+
+
+class IterativeBinarySearch
+{
+	// find out if a key x exists in the sorted array A
+	// or not using binary search algorithm
+	public static int binarySearch(int[] A, int x)
+	{
+	  // search space is A[low..high]
+       int low = 0, high = A.length - 1;
+
+		// till search space consists of at-least one element
+		while (low <= high)
+		{
+			// we find the mid value in the search space and
+			// compares it with key value
+
+			int mid = (low + high) / 2;
+
+			// overflow can happen. Use:
+			// int mid = low + (high - low) / 2;
+			// int mid = right - (high - low) / 2;
+
+			// key value is found
+			if (x == A[mid]) {
+				return mid;
+			}
+
+			// discard all elements in the right search space
+			// including the mid element
+			else if (x < A[mid]) {
+				high = mid - 1;
+			}
+
+			// discard all elements in the left search space
+			// including the mid element
+			else {
+				low = mid + 1;
+			}
+		}
+
+		// x doesn't exist in the array
+		return -1;
+	}
+
+	public static void main(String[] args)
+	{
+		int[] A = { 2, 5, 6, 8, 9, 10 };
+		int key = 5;
+
+		int index = binarySearch(A, key);
+
+		if (index != -1) {
+			System.out.println("Element found at index " + index);
+		} else {
+			System.out.println("Element not found in the array");
+		}
+	}
+}
+
 ```
