@@ -279,7 +279,6 @@ class MyHashSet {
        if(storage[bucket] != null){
 
            storage[bucket][bucketItem] = false;
-
        }
    }
 
