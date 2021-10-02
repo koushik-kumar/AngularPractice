@@ -252,9 +252,7 @@ class MyHashMap
    ListNode prev = findElement(index, key);
    if (prev.next == null)
      prev.next = new ListNode(key, value);
-
    else 
-
      prev.next.val = value;
 
  }
