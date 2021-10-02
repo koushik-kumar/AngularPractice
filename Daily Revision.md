@@ -242,7 +242,6 @@ class MyHashMap
  public int get(int key)
  {
    int index = getIndex(key);
-
    ListNode prev = findElement(index, key);
 
    return prev.next == null ? -1 : prev.next.val;
