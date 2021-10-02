@@ -281,7 +281,6 @@ class MyHashSet {
            storage[bucket][bucketItem] = false;
 
        }
-
    }
 
    /** Returns true if this set contains the specified element */
