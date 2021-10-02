@@ -264,8 +264,6 @@ class MyHashMap
      prev.next = prev.next.next;
  }
 
-​
-
  private int getIndex(int key)
 
  {  
