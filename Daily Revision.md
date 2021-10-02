@@ -437,5 +437,4 @@ class Graph
 
 ### 
 ```
-
-: definition
+definition
