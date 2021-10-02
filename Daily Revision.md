@@ -251,7 +251,6 @@ class MyHashSet {
    /** Initialize your data structure here. */
 
    public MyHashSet() {
-
    }
 
    public void add(int value ) {
