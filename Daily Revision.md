@@ -263,7 +263,6 @@ class MyHashSet {
        if(storage[bucket] == null){
 
            storage[bucket] = new boolean[bucketItems]; 
-
        }
        storage[bucket][bucketItem] = true;
    }
