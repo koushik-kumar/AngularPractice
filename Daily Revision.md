@@ -291,9 +291,7 @@ class MyHashMap
    ListNode(int key, int val)
    {
      this.key = key;
-
      this.val = val;
-
    }
 
  }
