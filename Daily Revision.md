@@ -257,7 +257,6 @@ class MyHashSet {
    public void add(int value ) {
 
        int bucket = bucket(value);      
-
        int bucketItem = bucketItem(value);
        if(storage[bucket] == null){
            storage[bucket] = new boolean[bucketItems]; 
