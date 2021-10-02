@@ -241,7 +241,6 @@ class MyHashMap
 
  public int get(int key)
  {
-
    int index = getIndex(key);
 
    ListNode prev = findElement(index, key);
