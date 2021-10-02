@@ -261,7 +261,6 @@ class MyHashSet {
        int bucketItem = bucketItem(value);
 
        if(storage[bucket] == null){
-
            storage[bucket] = new boolean[bucketItems]; 
        }
        storage[bucket][bucketItem] = true;
