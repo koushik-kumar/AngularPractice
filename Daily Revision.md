@@ -285,7 +285,6 @@ class MyHashMap
 
  private static class ListNode
  {
-
    int key, val;
 
    ListNode next;
