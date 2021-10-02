@@ -660,5 +660,157 @@ class RecursiveBinarySearch
 ## Preorder Postorder
 
 ```
-√
+package com.javadevjournal.datastructure.tree.bst;
+
+
+public class BinarySearchTree {
+
+    private Node root;
+
+    /**
+     * In order BST traversal allows to traverse tree in the sorted order.
+     * This traversal follow left->current-right pattern.
+     * <li>left sub-tree will be viisted first.</li>
+     * <li> Current node will be viisted after left traversal</li>
+     * <li>Right subtree will be visited in the end.</li>
+     */
+    public void inOrderTraversal() {
+        inOrderTraversal(root);
+    }
+
+    public void postOrderTraversal() {
+        postOrderTraversal(root);
+    }
+
+    public void preOrderTraversal() {
+        preOrderTraversal(root);
+    }
+
+
+    /*
+     Internal private method to do in order traversal.We will pass the
+     root node to start with and will visit the tree recursively using the following
+     path left-current-right
+    */
+    private void inOrderTraversal(Node node) {
+
+        //We will continue until null or empty node is found
+        if (node != null) {
+
+            //visit the left subtree until the leaf node
+            inOrderTraversal(node.left);
+
+            //Print the node
+            System.out.println(node.data);
+
+            //process the same step for the right node
+            inOrderTraversal(node.right);
+        }
+    }
+
+
+    /*
+     Internal private method to do pre order traversal.We will pass the
+     root node to start with and will visit the tree recursively using the following
+     path current-left-right
+    */
+    private void preOrderTraversal(Node node) {
+
+        //We will continue until null or empty node is found
+        if (node != null) {
+
+            //Print the node
+            System.out.println(node.data);
+
+            //visit the left subtree until the leaf node
+            inOrderTraversal(node.left);
+
+            //process the same step for the right node
+            inOrderTraversal(node.right);
+        }
+    }
+
+
+    /*
+     Internal private method to do post-order traversal.We will pass the
+     root node to start with and will visit the tree recursively using the following
+     path right-left-current
+    */
+    private void postOrderTraversal(Node node) {
+
+        //We will continue until null or empty node is found
+        if (node != null) {
+
+            //visit the left subtree until the leaf node
+            inOrderTraversal(node.left);
+
+            //process the same step for the right node
+            inOrderTraversal(node.right);
+
+            //Print the node
+            System.out.println(node.data);
+        }
+    }
+
+    /**
+     * Internal node class representing the node of the BST. This contains the following information
+     * <li>data- actual data stored in the Tree</li>
+     * <li>left - Left child of the node</li>
+     * <li>right - right child of the node</li>
+     */
+    class Node {
+
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data) {
+            this.data = data;
+            //this just for reading.they will be null by default
+            this.left = null;
+            this.right = null;
+        }
+    }
+}
+
+// Main program to test it
+package com.javadevjournal.datastructure.tree;
+
+import com.javadevjournal.datastructure.tree.bst.BinarySearchTree;
+
+public class BinarySearchTreeTest {
+
+    public static void main(String[] args) {
+        BinarySearchTree bst = new BinarySearchTree();
+
+        /* We are building a BST as below
+             52
+           /    \
+          15     56
+         /  \    /  \
+        9    16 54   61
+       / \
+      3   10 */
+
+        bst.insert(52);
+        bst.insert(15);
+        bst.insert(56);
+        bst.insert(9);
+        bst.insert(16);
+        bst.insert(54);
+        bst.insert(3);
+        bst.insert(10);
+        bst.insert(61);
+
+        //inorder traversal
+        bst.inOrderTraversal(); //output [3,9,10,15,16,52,54,56,61]
+
+        //pre-order
+        bst.preOrderTraversal(); //output [52,15,9,3,10,16,56,54,61]
+
+        //post-order
+        bst.postOrderTraversal(); //output [3,10,9,16,15,54,61,56,52]
+    }
+}
+
 ```
