@@ -1081,7 +1081,7 @@ quickSort(arr[], low, high)
         quickSort(arr, pi + 1, high); // After pi
     }
 }
-
+```
 ### Pseudo code for partition()  
 ```
 /* This function takes last element as pivot, places
