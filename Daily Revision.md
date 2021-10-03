@@ -1083,7 +1083,7 @@ quickSort(arr[], low, high)
 }
 
 ### Pseudo code for partition()  
-
+```
 /* This function takes last element as pivot, places
    the pivot element at its correct position in sorted
     array, and places all smaller (smaller than pivot)
