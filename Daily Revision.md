@@ -80,6 +80,7 @@ public class ArrayList{
     System.arraycopy(elementData, index+1, elementData, index, numMoved);
 }
 ```
+---
 
 ## Reverse a linked list
 ```
@@ -112,7 +113,7 @@ public class ReverseLL{
     }
 }
 ```
-
+---
 
 
 ## Stack using Array
@@ -219,6 +220,7 @@ public class QueueUsingArray{
 }
 
 ```
+---
 
 ## Implement HashMap
 The general implementation of HashMap uses bucket which is basically a chain of linked lists and each node containing <key, value> pair.
@@ -246,6 +248,7 @@ class MyHashMap
    return prev.next == null ? -1 : prev.next.val;
  }
 
+
  public void put(int key, int value)
  {
    int index = getIndex(key);
@@ -256,6 +259,7 @@ class MyHashMap
      prev.next.val = value;
  }
 
+
  public void remove(int key)
  {
    int index = getIndex(key);
@@ -264,10 +268,12 @@ class MyHashMap
      prev.next = prev.next.next;
  }
 
+
  private int getIndex(int key)
  {  
    return Integer.hashCode(key) % nodes.length;
  }
+
 
  private ListNode findElement(int index, int key)
  {
@@ -283,6 +289,7 @@ class MyHashMap
    return prev;
  }
 
+
  private static class ListNode
  {
    int key, val;
@@ -297,8 +304,7 @@ class MyHashMap
 }
 ```
 
-
-
+---
 
 ## Implement HashSet
 We are going to use array to implement hashset and do the operations on an array to implement hashset
@@ -324,6 +330,7 @@ class MyHashSet {
    public MyHashSet() {
    }
 
+
    public void add(int value ) {
        int bucket = bucket(value);      
        int bucketItem = bucketItem(value);
@@ -333,6 +340,7 @@ class MyHashSet {
        storage[bucket][bucketItem] = true;
    }
 
+
    public void remove(int value) {
         int bucket = bucket(value);
         int bucketItem = bucketItem(value);
@@ -340,6 +348,7 @@ class MyHashSet {
            storage[bucket][bucketItem] = false;
        }
    }
+
 
    /** Returns true if this set contains the specified element */
 
@@ -350,7 +359,7 @@ class MyHashSet {
    }
 }
 ```
-
+---
 ## Graph
 ```// Java program to print BFS traversal from a given source vertex.
 // BFS(int s) traverses vertices reachable from s.
@@ -373,11 +382,13 @@ class Graph
 			adj[i] = new LinkedList();
 	}
 
+
 	// Function to add an edge into the graph
 	void addEdge(int v,int w)
 	{
 		adj[v].add(w);
 	}
+
 
 	// prints BFS traversal from a given source s
 	void BFS(int s)
@@ -414,6 +425,7 @@ class Graph
 			}
 		}
 	}
+
 
 	// Driver method to
 	public static void main(String args[])
@@ -523,7 +535,7 @@ class Graph {
 }
 ```
 
-
+---
 
 ## Binary Search 
 
@@ -656,8 +668,9 @@ class RecursiveBinarySearch
 }
 
 ```
+---
 
-## Preorder Postorder
+## Tree traversal - pre, in, post
 
 ```
 package com.javadevjournal.datastructure.tree.bst;
@@ -814,7 +827,7 @@ public class BinarySearchTreeTest {
 }
 
 ```
-
+---
 
 ## Trie
 
@@ -907,3 +920,148 @@ class Trie {
     }
 }
 ```
+---
+
+## Merge sort
+```
+MergeSort(arr[], l,  r)
+If r > l
+     1. Find the middle point to divide the array into two halves:  
+             middle m = l+ (r-l)/2
+     2. Call mergeSort for first half:   
+             Call mergeSort(arr, l, m)
+     3. Call mergeSort for second half:
+             Call mergeSort(arr, m+1, r)
+     4. Merge the two halves sorted in step 2 and 3:
+             Call merge(arr, l, m, r)
+```
+
+```
+/* Java program for Merge Sort */
+class MergeSort
+{
+	// Merges two subarrays of arr[].
+	// First subarray is arr[l..m]
+	// Second subarray is arr[m+1..r]
+	void merge(int arr[], int l, int m, int r)
+	{
+		// Find sizes of two subarrays to be merged
+		int n1 = m - l + 1;
+		int n2 = r - m;
+
+		/* Create temp arrays */
+		int L[] = new int[n1];
+		int R[] = new int[n2];
+
+		/*Copy data to temp arrays*/
+		for (int i = 0; i < n1; ++i)
+			L[i] = arr[l + i];
+		for (int j = 0; j < n2; ++j)
+			R[j] = arr[m + 1 + j];
+
+		/* Merge the temp arrays */
+
+		// Initial indexes of first and second subarrays
+		int i = 0, j = 0;
+
+		// Initial index of merged subarray array
+		int k = l;
+		while (i < n1 && j < n2) {
+			if (L[i] <= R[j]) {
+				arr[k] = L[i];
+				i++;
+			}
+			else {
+				arr[k] = R[j];
+				j++;
+			}
+			k++;
+		}
+
+		/* Copy remaining elements of L[] if any */
+		while (i < n1) {
+			arr[k] = L[i];
+			i++;
+			k++;
+		}
+
+		/* Copy remaining elements of R[] if any */
+		while (j < n2) {
+			arr[k] = R[j];
+			j++;
+			k++;
+		}
+	}
+
+	// Main function that sorts arr[l..r] using
+	// merge()
+	void sort(int arr[], int l, int r)
+	{
+		if (l < r) {
+			// Find the middle point
+			int m =l+ (r-l)/2;
+
+			// Sort first and second halves
+			sort(arr, l, m);
+			sort(arr, m + 1, r);
+
+			// Merge the sorted halves
+			merge(arr, l, m, r);
+		}
+	}
+
+	/* A utility function to print array of size n */
+	static void printArray(int arr[])
+	{
+		int n = arr.length;
+		for (int i = 0; i < n; ++i)
+			System.out.print(arr[i] + " ");
+		System.out.println();
+	}
+
+	// Driver code
+	public static void main(String args[])
+	{
+		int arr[] = { 12, 11, 13, 5, 6, 7 };
+
+		System.out.println("Given Array");
+		printArray(arr);
+
+		MergeSort ob = new MergeSort();
+		ob.sort(arr, 0, arr.length - 1);
+
+		System.out.println("\nSorted array");
+		printArray(arr);
+	}
+}
+/* This code is contributed by Rajat Mishra */
+```
+
+#### Output
+```
+Given array is 
+12 11 13 5 6 7 
+Sorted array is 
+5 6 7 11 12 13
+```
+Time Complexity:   
+Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation.  
+> T(n) = 2T(n/2) + θ(n)
+
+The above recurrence can be solved either using the Recurrence Tree method or the Master method. It falls in case II of Master Method and the solution of the recurrence is θ(nLogn). Time complexity of Merge Sort is  θ(nLogn) in all 3 cases (worst, average and best) as merge sort always divides the array into two halves and takes linear time to merge two halves.
+
+Auxiliary Space: O(n)  
+Algorithmic Paradigm: Divide and Conquer  
+Sorting In Place: No in a typical implementation
+
+Stable: Yes  
+
+---
+## Quick Sort
+
+different ways.   
+
+Always pick first element as pivot.  
+Always pick last element as pivot (implemented below)  
+Pick a random element as pivot.  
+Pick median as pivot.  
