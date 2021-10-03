@@ -1067,7 +1067,7 @@ Pick a random element as pivot.
 Pick median as pivot.  
 
 ### Pseudo Code for recursive QuickSort function : 
-``
+```
 /* low  --> Starting index,  high  --> Ending index */
 quickSort(arr[], low, high)
 {
