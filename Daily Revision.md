@@ -854,7 +854,7 @@ class TrieNode {
     }
 }
 ```
-
+---
 
 ```
 package com.baeldung.trie;
