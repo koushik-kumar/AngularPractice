@@ -831,8 +831,6 @@ public class BinarySearchTreeTest {
 
 ## Trie
 
----
-
 ```
 class TrieNode {
 
