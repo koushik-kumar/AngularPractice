@@ -855,7 +855,7 @@ class TrieNode {
 }
 ```
 ---
-<!-- markdownlint-disable-next-line MD000 -->
+---
 ```
 package com.baeldung.trie;
 
